@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
 
@@ -6,9 +8,7 @@ public class Main {
 
 
         for (int i = 0; i < length; i++) {
-            for (int j = 0; j < length; j++) {
-                strings[i][j] = " ";
-            }
+            Arrays.fill(strings[i], " ");
         }
 
         for (int i = 0; i < length; i++) {
@@ -26,7 +26,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        downTriangleStar(20);
+        int len=7;
+        downTriangleStar(len);
 
     }
 }
