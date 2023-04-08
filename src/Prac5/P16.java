@@ -14,13 +14,12 @@ public class P16 {
         } while (sc.hasNextInt());
 
         int sum = 0;
-        double average = 0;
 
         for (Integer num : numsList) {
             sum += num;
         }
 
-        average = (double) sum / numsList.size();
+        double average = (double) sum / numsList.size();
         System.out.println("SUM = " + sum + " AVERAGE = " + average);
     }
 
