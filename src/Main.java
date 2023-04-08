@@ -20,6 +20,7 @@ public class Main {
             for (int j = 0; j < length; j++) {
                 System.out.print(strings[i][j] + " ");
             }
+
             System.out.println();
         }
     }
