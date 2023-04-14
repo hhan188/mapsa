@@ -1,23 +1,35 @@
 import java.util.Arrays;
 import java.util.Locale;
+import java.io.*;
+import java.util.Scanner;
+
 
 public class Tamrin2 {
     public static void main(String[] args) {
-        //re("99", 2);
+        re( 2);
         //makePair(12, 11);
-        int a = even(100);
-        System.out.println("even= " + a);
+        //int a = even(100);
+      //  System.out.println("even= " + a);
     }
 
-    public static void re(Object j, int count) {
+    public static void re( int count) {
+        String d ="sss";
+        
+        Scanner n = new Scanner(System.in);
+        Object j = n.next();
         //p12
         if (j instanceof Integer) {
             System.out.println("not string!!!!");
         } else {
-            //String str = "abc";
-            //String repeated = str.repeat(3);
+            //  String str = "abc";
+            //  String repeated = String.repeat(3);
 
+        
         }
+    }
+
+    public static void k() {
+
     }
 
     public static void makePair(int a, int b) {
@@ -55,12 +67,11 @@ public class Tamrin2 {
         System.out.println(s.substring(1, s.length() - 1));
         //p10
         String[] smaller = new String[2];
-        smaller[0]=s;
-        smaller[1]=r;
+        smaller[0] = s;
+        smaller[1] = r;
         Arrays.sort(smaller);
-        System.out.println("smaller:"+ smaller[0]);
+        System.out.println("smaller:" + smaller[0]);
         //p11
-
 
 
     }
