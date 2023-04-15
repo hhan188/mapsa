@@ -1,4 +1,4 @@
-package sajjadEmami.Prac6;
+package Prac6;
 
 public class Fruit {
     public String name;

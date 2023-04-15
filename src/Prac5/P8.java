@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P8 {
     public static boolean isValid(int num) {

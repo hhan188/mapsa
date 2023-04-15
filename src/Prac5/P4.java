@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P4 {
     public static boolean isPalindrome(int num) {

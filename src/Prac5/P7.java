@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P7 {
     public static boolean hasSharedDigits(int num1, int num2) {

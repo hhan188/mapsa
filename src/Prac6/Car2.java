@@ -1,11 +1,11 @@
-package sajjadEmami.Prac6;
+package Prac6;
 
-public class Car {
+public class Car2 {
     private String make;
     private String model;
     private int year;
 
-    public Car(String make, String model, int year) {
+    public Car2(String make, String model, int year) {
         setMake(make);
         setModel(model);
         setYear(year);

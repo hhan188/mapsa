@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 import java.util.ArrayList;
 import java.util.Scanner;

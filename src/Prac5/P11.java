@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P11 {
     public static boolean isPerfectNumber(int num) {

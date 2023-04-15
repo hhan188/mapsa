@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P14 {
     public static boolean isPrime(int num) {

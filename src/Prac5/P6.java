@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P6 {
     public static int getEvenDigitSum(int num) {

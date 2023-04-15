@@ -1,4 +1,4 @@
-package sajjadEmami.Prac5;
+package Prac5;
 
 public class P9 {
     public static int getGreatestCommonDivisor(int num1, int num2) {
