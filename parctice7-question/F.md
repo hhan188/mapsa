@@ -1,0 +1,14 @@
+### Practice Arrays 2
+
+--------------------------------------
+
+1. Create a class called Person that has private fields for name, age, and address. Include getter and setter methods for each field. Create an array of 5 Person objects and print out the name and age of each person.
+2. Create a class called Car that has private fields for make, model, and year. Include getter and setter methods for each field. Create an array of 10 Car objects and print out the make, model, and year of each car.
+3. Create a class called BankAccount that has private fields for account number, balance, and owner name. Include getter and setter methods for each field. Create an array of 3 BankAccount objects and print out the account number, balance, and owner name of each account.
+4. Create a class called Book that has private fields for title, author, and number of pages. Include getter and setter methods for each field. Create an array of 7 Book objects and print out the title and author of each book.
+5. Create a class called Student that has private fields for name, age, and grades (an array of integers). Include getter and setter methods for name and age, and a method to calculate the average grade. Create an array of 4 Student objects and print out the name, age, and average grade of each student.
+6. Create a class called Rectangle that has private fields for length and width. Include getter and setter methods for each field, and a method to calculate the area of the rectangle. Create an array of 6 Rectangle objects and print out the length, width, and area of each rectangle.
+7. Create a class called Employee that has private fields for name, salary, and department. Include getter and setter methods for each field. Create an array of 5 Employee objects and print out the name, salary, and department of each employee.
+8. Create a class called Circle that has a private field for radius. Include getter and setter methods for the radius, and a method to calculate the circumference of the circle. Create an array of 9 Circle objects and print out the radius and circumference of each circle.
+9. Create a class called Animal that has private fields for name and species. Include getter and setter methods for each field. Create an array of 8 Animal objects and print out the name and species of each animal.
+10. Create a class called Course that has private fields for name and students (an array of Student objects). Include getter and setter methods for the name and students, and a method to calculate the average grade of all the students in the course. Create an array of 2 Course objects, each with 3 students, and print out the name of each course and the average grade of all the students in the course.
