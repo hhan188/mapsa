@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 5 Done">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 7 Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,68 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.p3">
+    <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin3.p1" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin3.p2" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin2.p3" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tamrin2.p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin2.p1" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.p3" />
+        <item itemvalue="Application.tamrin2.p1" />
+        <item itemvalue="Application.p2" />
+        <item itemvalue="Application.p1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +110,7 @@
       <workItem from="1681708932771" duration="607000" />
       <workItem from="1681811084045" duration="1006000" />
       <workItem from="1681812858216" duration="601000" />
+      <workItem from="1681991558342" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -63,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681811355307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Practice 7 Done">
+      <created>1681991631966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681991631966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="EhsanBabaie" />
+                        <option value="origin/EhsanBabaie" />
                       </list>
                     </value>
                   </entry>
@@ -98,12 +168,32 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="EhsanBabaie" />
+                  <option value="origin/EhsanBabaie" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/sajjadEmami" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/RaminPirnia" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/AliJamali" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="EhsanBabaie" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -120,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete Unnecessary Files" />
     <MESSAGE value="Practice 5 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 5 Done" />
+    <MESSAGE value="Practice 7 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 7 Done" />
   </component>
 </project>
