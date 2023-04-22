@@ -1,24 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/A.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/B.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/C.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/D.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/E.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/F.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/G.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/H.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/I.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/J.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/New Microsoft Word Document.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parctice7-question/practice7.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarBrands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/ProductsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise25/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise27/TernaryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapsa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise10/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/FindNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise11/FindNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/FindString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise12/FindString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise13/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise13/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise14/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise14/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise15/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise15/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise16/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise16/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise17/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise17/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise18/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/PersonAverageAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise18/PersonAverageAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise19/CircleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise19/CircleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise23/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise25/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise25/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise27/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise27/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise4/RandomNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise4/RandomNumbersArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/AverageOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise5/AverageOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/SmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise6/SmallestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise7/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise8/AddCorresponding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise8/AddCorresponding.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="h.ershadbakhsh &lt;h.ershadbakhsh@asanpardakht.ir&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="AliJamali" />
+                    <option name="lastUsedInstant" value="1681584569" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="hhan188/mapsa" />
+                    <option name="lastUsedInstant" value="1681584568" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/src/practice5" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="AliJamali" />
+                    <option name="lastUsedInstant" value="1681585047" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1681585046" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/src/practice6" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "AliJamali",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/my-java-projects-1402/mapsa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.34712642",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practices.practice7.exercise26" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my-new-projects-intellige\mapsa\parctice7-question" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practices.practice7.exercise26" />
+      <recent name="practices.practice7.exercise27" />
+      <recent name="practices.practice7.exercise25" />
+      <recent name="practices.practice7.exercise24" />
+      <recent name="practices.practice7.exercise23" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.practices.practice7.exercise27.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice7.exercise25.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice7.exercise25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practices.practice7.exercise22.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice7.exercise22.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice7.exercise22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practices.practice7.exercise23.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice7.exercise23.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice7.exercise23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practices.practice7.exercise24.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice7.exercise24.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice7.exercise24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practices.practice7.exercise27.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice7.exercise27.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practices.practice7.exercise27.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.practices.practice7.exercise27.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.practices.practice7.exercise24.Main" />
+        <item itemvalue="Application.practices.practice7.exercise23.Main" />
+        <item itemvalue="Application.practices.practice7.exercise22.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,7 +276,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678441650971</updated>
+      <workItem from="1681584467631" duration="2198000" />
+      <workItem from="1681678891431" duration="9185000" />
+      <workItem from="1681735266406" duration="9437000" />
+      <workItem from="1681770413028" duration="10871000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1681679353896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681679353896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1681770650927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681770650927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just made main,i will start a few second later" />
+    <MESSAGE value="before exercise 22" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/inheritance1/arrays1/exercise5/SumOfElements.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
