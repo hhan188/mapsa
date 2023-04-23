@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 7 Done">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 2,3,4,6 that done before, is Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +34,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.p3">
-    <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tamrin3.p1" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin8.p1.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tamrin3.*" />
+          <option name="PATTERN" value="tamrin8.p1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tamrin8.p2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin8.p2.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin8.p2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.tamrin8.p2.Main" />
         <item itemvalue="Application.p3" />
         <item itemvalue="Application.tamrin2.p1" />
         <item itemvalue="Application.p2" />
-        <item itemvalue="Application.p1" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +124,8 @@
       <workItem from="1681708932771" duration="607000" />
       <workItem from="1681811084045" duration="1006000" />
       <workItem from="1681812858216" duration="601000" />
-      <workItem from="1681991558342" duration="2268000" />
+      <workItem from="1681991558342" duration="2829000" />
+      <workItem from="1682277371968" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -133,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681991631966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Practice 2,3,4,6 that done before, is Added">
+      <created>1681994235743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681994235743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +233,7 @@
     <MESSAGE value="Delete Unnecessary Files" />
     <MESSAGE value="Practice 5 Done" />
     <MESSAGE value="Practice 7 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 7 Done" />
+    <MESSAGE value="Practice 2,3,4,6 that done before, is Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 2,3,4,6 that done before, is Added" />
   </component>
 </project>
