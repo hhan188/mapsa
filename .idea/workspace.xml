@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tamrin5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin5/Practice5.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="add tamrin7 to git">
+      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RaminPirnia" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,12 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Mapsa/mapsa/src/com/tamrin8/firstPart/store",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin8\firstPart\store" />
+      <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin7" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1678441650971</updated>
     </task>
+    <task id="LOCAL‎−۰۰۰۰۱" summary="add tamrin5 to git">
+      <created>1681573284077</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
+      <updated>1681573284077</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۲" summary="add tamrin7 to git">
+      <created>1681990733350</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
+      <updated>1681990733350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,7 +89,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Hanieh" />
+                        <option value="origin/RaminPirnia" />
                       </list>
                     </value>
                   </entry>
@@ -72,5 +100,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tamrin5 to git" />
+    <MESSAGE value="add tamrin7 to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tamrin7 to git" />
   </component>
 </project>
