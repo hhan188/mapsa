@@ -7,33 +7,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice8 Ali Jamali done!!!">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice8 Ali Jamali done!!!version 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapsa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice71/exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice71/exercise10/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/BankServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/BankServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Patron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Patron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/LibServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/LibServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/mapsa-project-bank" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/mapsa-projects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/StoreServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/StoreServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
         <option value="h.ershadbakhsh &lt;h.ershadbakhsh@asanpardakht.ir&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/practices/practice8/bank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/practices/practice8/library" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -245,7 +234,7 @@
       <workItem from="1681770413028" duration="8434000" />
       <workItem from="1681815775057" duration="2983000" />
       <workItem from="1681821498601" duration="7532000" />
-      <workItem from="1682519663341" duration="1827000" />
+      <workItem from="1682519663341" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1681679353896</created>
@@ -289,7 +278,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682519952674</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="practice8 Ali Jamali done!!!">
+      <created>1682521550303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521550303</updated>
+    </task>
+    <task id="LOCAL-00008" summary="practice8 Ali Jamali done!!!version 0.2">
+      <created>1682521909206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521909206</updated>
+    </task>
+    <task id="LOCAL-00009" summary="practice8 Ali Jamali done!!!version 1.0">
+      <created>1682522611435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682522611435</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +357,9 @@
     <MESSAGE value="fixup! update some exercise was missed in last commit" />
     <MESSAGE value="practice7 Ali Jamali" />
     <MESSAGE value="practice8 Ali Jamali done!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice8 Ali Jamali done!!!" />
+    <MESSAGE value="practice8 Ali Jamali done!!!version 0.2" />
+    <MESSAGE value="practice8 Ali Jamali done!!!version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice8 Ali Jamali done!!!version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
