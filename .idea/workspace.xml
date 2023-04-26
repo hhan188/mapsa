@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice8 Ali Jamali done!!!version 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/encodings.xml" beforeDir="false" />
@@ -17,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/.idea/encodings.xml" beforeDir="false" />
@@ -234,7 +235,7 @@
       <workItem from="1681770413028" duration="8434000" />
       <workItem from="1681815775057" duration="2983000" />
       <workItem from="1681821498601" duration="7532000" />
-      <workItem from="1682519663341" duration="3043000" />
+      <workItem from="1682519663341" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1681679353896</created>
