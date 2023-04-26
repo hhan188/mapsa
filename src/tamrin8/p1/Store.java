@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Store {
     private final String name;
     private final Item[] itemsInStock;
+    //private ArrayList<Item> itemsInStock;
     private final Customer[] customers;
 
     public Store(String name, Item[] itemsInStock, Customer[] customers) {
@@ -99,7 +100,7 @@ public class Store {
         Item[] customerItemsPurchased = customer.getItemsPurchased();
         //Purchased before
         for (int i = 0; i < customerItemsPurchased.length; i++) {
-            if (customerItemsPurchased[i] == item) {
+            if (customerItemsPurchased[i] != null && customerItemsPurchased[i].getName() == item.getName()) {
                 customerItemsPurchased[i].setQuantity(customerItemsPurchased[i].getQuantity() + item.getQuantity());
                 customer.setItemsPurchased(customerItemsPurchased);
                 return;

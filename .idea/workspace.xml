@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 2,3,4,6 that done before, is Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 8 p1 &amp; p2 done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1681811084045" duration="1006000" />
       <workItem from="1681812858216" duration="601000" />
       <workItem from="1681991558342" duration="2829000" />
-      <workItem from="1682277371968" duration="297000" />
+      <workItem from="1682277371968" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681994235743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Practice 8 p1 &amp; p2 done">
+      <created>1682277764570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682277764570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +239,7 @@
     <MESSAGE value="Practice 5 Done" />
     <MESSAGE value="Practice 7 Done" />
     <MESSAGE value="Practice 2,3,4,6 that done before, is Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 2,3,4,6 that done before, is Added" />
+    <MESSAGE value="Practice 8 p1 &amp; p2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 8 p1 &amp; p2 done" />
   </component>
 </project>
