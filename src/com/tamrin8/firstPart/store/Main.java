@@ -1,4 +1,4 @@
-package com.tamrin8.firstPart.store.store;
+package com.tamrin8.firstPart.store;
 
 import java.util.Scanner;
 

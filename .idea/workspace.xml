@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="add tamrin7 to git">
-      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Store.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 8 - Bakhsh Avval - Store Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Mapsa/mapsa/src/com/tamrin8/firstPart/store",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Mapsa/mapsa/src/com/tamrin8/firstPart/store&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin8\firstPart\store" />
@@ -75,7 +75,19 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
       <updated>1681990733350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎−۰۰۰۰۳" summary="Practice 8 - Bakhsh Avval - Store Priject">
+      <created>1682316181464</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1682316181464</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۴" summary="Practice 8 - Bakhsh Avval - Store Project">
+      <created>1682316291428</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
+      <updated>1682316291429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,10 +112,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tamrin5 to git" />
     <MESSAGE value="add tamrin7 to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tamrin7 to git" />
+    <MESSAGE value="Practice 8 - Bakhsh Avval - Store Priject" />
+    <MESSAGE value="Practice 8 - Bakhsh Avval - Store Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 8 - Bakhsh Avval - Store Project" />
   </component>
 </project>

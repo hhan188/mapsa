@@ -1,4 +1,4 @@
-package com.tamrin8.firstPart.store.store;
+package com.tamrin8.firstPart.store;
 
 public class Item
 {
