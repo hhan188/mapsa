@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+src/practices/practice8/.idea
+src/practices/practice7/.idea
+*/tareget
 
 ### Eclipse ###
 .apt_generated
@@ -21,7 +24,8 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-
+*/out
+*/idea
 ### VS Code ###
 .vscode/
 

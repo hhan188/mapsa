@@ -7,72 +7,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="fixup! update some exercise was missed in last commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice71/exercise25/Main.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice8 Ali Jamali done!!!">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapsa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/FindNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise11/FindNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/FindString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise12/FindString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise13/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise13/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise14/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise14/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise15/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise15/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise15/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise16/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise16/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise17/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise17/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise17/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise18/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/PersonAverageAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise18/PersonAverageAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise19/CircleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise19/CircleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise2/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise20/BookGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise20/BookGenre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise20/BookUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise20/BookUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise21/StudentUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise21/StudentUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarBrands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise22/CarBrands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise22/CarUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise22/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise23/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise23/BankUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise23/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise23/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise24/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise24/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise24/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise24/ProductsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise24/ProductsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise25/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise25/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise25/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise26/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise27/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise27/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise27/TernaryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise27/TernaryUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise3/FiveOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise3/FiveOneArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise4/RandomNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise4/RandomNumbersArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/AverageOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise5/AverageOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/SmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise6/SmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise7/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise8/AddCorresponding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise8/AddCorresponding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise9/MultipleCorresponding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise9/MultipleCorresponding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice71/exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice71/exercise10/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice71/exercise10/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/model/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/BankServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/BankServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/bank/src/main/java/gov/bank/service/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Patron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/model/Patron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/LibServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/LibServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/library/src/main/java/ir/tamin/library/services/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/mapsa-project-bank" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/mapsa-projects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/model/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/StoreServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice8/store/src/main/java/com/amazon/service/StoreServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +54,7 @@
         <option value="h.ershadbakhsh &lt;h.ershadbakhsh@asanpardakht.ir&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/practices/practice8/bank" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -148,37 +109,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;AliJamali&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/intelij-projects/mapsa&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.34712642&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "YaserJamali",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/intelij-projects/mapsa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.34712642",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practices.practice7.exercise26" />
@@ -194,7 +155,7 @@
       <recent name="practices.practice7.exercise23" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practices.practice71.exercise14.Main">
+  <component name="RunManager" selected="Application.practices.practice71.exercise10.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practices.practice71.exercise25.Main" />
       <module name="mapsa" />
@@ -208,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practices.practice71.exercise14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practice71.exercise14.Main" />
+    <configuration name="practices.practice71.exercise10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice71.exercise10.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practice71.exercise14.*" />
+          <option name="PATTERN" value="practices.practice71.exercise10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practices.practice71.exercise24.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.practice71.exercise24.Main" />
+    <configuration name="practices.practice71.exercise14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practices.practice71.exercise14.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practices.practice71.exercise24.*" />
+          <option name="PATTERN" value="practices.practice71.exercise14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practices.practice71.exercise10.Main" />
         <item itemvalue="Application.practices.practice71.exercise14.Main" />
         <item itemvalue="Application.practices.practice71.exercise2.Main" />
         <item itemvalue="Application.practices.practice71.exercise27.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.practices.practice71.exercise24.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +244,8 @@
       <workItem from="1681735266406" duration="9437000" />
       <workItem from="1681770413028" duration="8434000" />
       <workItem from="1681815775057" duration="2983000" />
-      <workItem from="1681821498601" duration="728000" />
+      <workItem from="1681821498601" duration="7532000" />
+      <workItem from="1682519663341" duration="1827000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1681679353896</created>
@@ -313,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681820769759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="practice7 Ali Jamali">
+      <created>1681822772794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681822772794</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practice8 Ali Jamali done!!!">
+      <created>1682519952674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682519952674</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +301,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/AliJamali" />
@@ -363,7 +344,10 @@
     <MESSAGE value="before exercise 22" />
     <MESSAGE value="update some exercise was missed in last commit" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="fixup! update some exercise was missed in last commit" />
+    <MESSAGE value="practice7 Ali Jamali" />
+    <MESSAGE value="practice8 Ali Jamali done!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice8 Ali Jamali done!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
