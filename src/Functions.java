@@ -3,6 +3,8 @@ public class Functions {
         int sec = minutes * 60;
         System.out.println("sec: " + sec);
         return sec;
+
+        //hanieh
     }
 
     public int SumOfTwoNumbers(int a, int b) {
