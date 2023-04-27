@@ -6,25 +6,34 @@ public class Tamrin5 {
         switch (number) {
             case 1:
                 System.out.print("one ");
+                break;
             case 2:
                 System.out.print("Two ");
+                break;
             case 3:
                 System.out.print("Three ");
+                break;
             case 4:
                 System.out.print("four ");
+                break;
             case 5:
                 System.out.print("five ");
+                break;
             case 6:
                 System.out.print("six ");
+                break;
             case 7:
                 System.out.print("seven ");
+                break;
             case 8:
                 System.out.print("eight ");
+                break;
             case 9:
                 System.out.print("nine ");
+                break;
             default:
                 System.out.print("Other ");
-
+                break;
         }
     }
 
@@ -33,10 +42,15 @@ public class Tamrin5 {
         if (year < 1 || year > 9999) {
             return false;
         }
-        if ((year % 4 == 0) && (year % 400 == 0) && (year % 100 != 0)) {
+        if (year % 400 == 0) {
+            return true;
+        }
+        if (year % 100 == 0) {
+            return false;
+        }
+        if (year % 4 == 0) {
             return true;
         } else return false;
-
     }
 
     //p14
@@ -74,7 +88,7 @@ public class Tamrin5 {
     }
 
     public static void main(String[] args) {
-        inputThenPrintSumAndAverage();
+        getLargestPrime(217);
     }
 
     //p16
@@ -145,13 +159,22 @@ public class Tamrin5 {
 
     //p23
     public static void numberToWord(int number) {
+        int count = 0;
         int pr = 0;
+       // int realCount = count(number);
         number = reverse(number);
         while (number != 0) {
+            count++;
             pr = number % 10;
             number /= 10;
             printNumberINWord(pr);
         }
+        /*if (count != realCount) {
+            int i = realCount - count;
+            for (int j = 0; j <= i; j++) {
+                printNumberINWord(0);
+            }
+        }*/
     }
 
     public static int reverse(int number) {
