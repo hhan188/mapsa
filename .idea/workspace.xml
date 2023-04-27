@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="a.test">
+      <change afterPath="$PROJECT_DIR$/src/Practice8_1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_1/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_1/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_2/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_2/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +39,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -89,6 +100,7 @@
       <updated>1678441650971</updated>
       <workItem from="1682527914793" duration="686000" />
       <workItem from="1682592774045" duration="303000" />
+      <workItem from="1682596541461" duration="686000" />
     </task>
     <servers />
   </component>
@@ -106,7 +118,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Hanieh" />
+                        <option value="origin/SoheylSayyah" />
                       </list>
                     </value>
                   </entry>
