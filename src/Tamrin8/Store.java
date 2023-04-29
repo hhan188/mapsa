@@ -28,16 +28,16 @@ public class Store {
         if (itemsInStock.contains(item) && customer.getBalance() >= item.getPrice()) {
             item.setQuantity(item.getQuantity() - 1);
 
-            ArrayList<Item> items = customer.getItemsPurchased();
+            ArrayList<Item> customerItems = customer.getItemsPurchased();
             int q = 1;
-            if (items.contains(item)) {
+            if (customerItems.contains(item)) {
                 q = item.getQuantity() + 1;
                 item.setQuantity(q);
-            } else if (items.contains(item) == false) {
+            } else if (customerItems.contains(item) == false) {
                 Item customerItem = new Item(item.getName(), item.getPrice(), q);
-                items.add(customerItem);
+                customerItems.add(customerItem);
             }
-            customer.setItemsPurchased(items);
+            customer.setItemsPurchased(customerItems);
             customer.setBalance(customer.getBalance() - item.getPrice());
 
         }
