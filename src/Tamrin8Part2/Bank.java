@@ -5,6 +5,7 @@ import lombok.Data;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
@@ -47,7 +48,7 @@ public class Bank {
 // and if the account has enough money to cover the withdrawal. If all of these conditions are true,
 // the amount should be subtracted from the account's balance and a new Transaction object should be created and added to the account's
 // list of transactions.
-    public void withdraw(int accountNumber, double amount, String description) throws ParseException {
+    public void withdraw(int accountNumber, double amount, String description) {
         Account customerAccount = getAccount(accountNumber);
         if (customerAccount != null && amount > 0 && customerAccount.getBalance()>=amount) {
             customerAccount.setBalance(customerAccount.getBalance() - amount);
@@ -80,10 +81,13 @@ public class Bank {
     }
 //incrementCurrentDate(): Advances the current date by one day.
 // This method should be called once per day to update the dates of transactions.
-    public void incrementCurrentDate() throws ParseException {
+    public void incrementCurrentDate()  {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        LocalDateTime now= LocalDateTime.now().plusDays(1);
+        this.currentDate = formatter.format(now);
        // currentDate = "2023-04-18 16:23:28";
-        Date date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH).parse(this.currentDate);
+       /* Date date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH).parse(this.currentDate);
         LocalDateTime.from(date.toInstant()).plusDays(1);
-        currentDate=String.valueOf(date);
+        currentDate=String.valueOf(date);*/
     }
 }
