@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 8 Reza Fazeli">
-      <change afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ha/shghh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tamrin1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tamrin2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tamrin3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tamrin4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -33,6 +27,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,8 +51,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678441650971</updated>
-      <workItem from="1682773744057" duration="1149000" />
+      <workItem from="1682773744057" duration="5305000" />
     </task>
+    <task id="LOCAL-00001" summary="Tamrin 8 Reza Fazeli">
+      <created>1682774971377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682774971377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,7 +71,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="rezafazeli" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="rezafazeli" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
