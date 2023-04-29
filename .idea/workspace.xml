@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="add practice 7 to git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="add practice 7changes to git">
+      <change beforePath="$PROJECT_DIR$/src/tamrinee5/UsingStudent2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tamrinee5/UsingStudent2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,56 @@
       <option name="project" value="LOCAL" />
       <updated>1682022846791</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add practice 7 to git">
+      <created>1682780743719</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780743719</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add practice 7 changes to git">
+      <created>1682780782392</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780782392</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add practice 7changes to git">
+      <created>1682780849196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780849196</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add practice 7changes to git">
+      <created>1682780869200</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780869200</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add practice 7changes to git">
+      <created>1682780886871</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780886871</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add practice 7changes to git">
+      <created>1682780947960</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780947960</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add practice 7changes to git">
+      <created>1682780968049</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1682780968049</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add practice 7 to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add practice 7 to git" />
+    <MESSAGE value="add practice 7 changes to git" />
+    <MESSAGE value="add practice 7changes to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add practice 7changes to git" />
   </component>
 </project>
