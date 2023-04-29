@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 8 p1 &amp; p2 done" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Update Practice 8 p1&#10;Remove Bug in Store.java">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +127,8 @@
       <workItem from="1681812858216" duration="601000" />
       <workItem from="1681991558342" duration="2829000" />
       <workItem from="1682277371968" duration="612000" />
+      <workItem from="1682521692022" duration="397000" />
+      <workItem from="1682783987016" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -160,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682277764570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Practice 8 p1&#10;Remove Bug in Store.java">
+      <created>1682521987760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521987760</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +207,11 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="origin/Hanieh" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="origin/EhsanBabaie" />
                 </option>
               </RecentGroup>
@@ -223,11 +240,6 @@
                   <option value="EhsanBabaie" />
                 </option>
               </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/Hanieh" />
-                </option>
-              </RecentGroup>
             </list>
           </value>
         </entry>
@@ -240,6 +252,7 @@
     <MESSAGE value="Practice 7 Done" />
     <MESSAGE value="Practice 2,3,4,6 that done before, is Added" />
     <MESSAGE value="Practice 8 p1 &amp; p2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 8 p1 &amp; p2 done" />
+    <MESSAGE value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
   </component>
 </project>
