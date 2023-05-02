@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="a.test">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice8_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice8_2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice8_2/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice8_2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice8_2/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice8_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice8_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice8_2/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice8_2/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,21 +61,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice8_2.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="mapsa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Person2" />
-      <module name="mapsa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Practice8_3.P6.Main">
     <configuration name="Practice8_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice8_2.Main" />
       <module name="mapsa" />
@@ -90,13 +75,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice8_3.P2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.P2.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.P2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice8_3.P4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.P4.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.P4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice8_3.P5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.P5.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.P5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice8_3.P6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.P6.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.P6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice8_3.P6.Main" />
+        <item itemvalue="Application.Practice8_3.P5.Main" />
+        <item itemvalue="Application.Practice8_3.P4.Main" />
+        <item itemvalue="Application.Practice8_3.P2.Main" />
         <item itemvalue="Application.Practice8_2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Person2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Person2" />
       </list>
     </recent_temporary>
   </component>
@@ -112,8 +149,17 @@
       <workItem from="1682592774045" duration="303000" />
       <workItem from="1682596541461" duration="686000" />
       <workItem from="1682861838251" duration="2774000" />
-      <workItem from="1683013312266" duration="469000" />
+      <workItem from="1683013312266" duration="7790000" />
+      <workItem from="1683021531769" duration="5873000" />
     </task>
+    <task id="LOCAL-00001" summary="Practice8_2">
+      <created>1683013844250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683013844251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practice8_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice8_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
