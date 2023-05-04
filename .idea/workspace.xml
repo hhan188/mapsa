@@ -4,9 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice8_2">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice8_6">
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/ConstructorChaining/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/ConstructorChaining/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Superman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/MP3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/too/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/too/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/thisAndSuper/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice8_3/thisAndSuper/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice8_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice8_2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +106,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice8_3.P6.Main">
-    <configuration name="Practice8_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_2.Main" />
+  <component name="RunManager" selected="Application.Practice8_3.jenerics.too.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.Casting.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_2.*" />
+          <option name="PATTERN" value="Practice8_3.Casting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,38 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice8_3.P2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.P2.Main" />
+    <configuration name="Practice8_3.Casting.too.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.Casting.too.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.P2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice8_3.P4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.P4.Main" />
-      <module name="mapsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice8_3.P4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice8_3.P5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.P5.Main" />
-      <module name="mapsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice8_3.P5.*" />
+          <option name="PATTERN" value="Practice8_3.Casting.too.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +146,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice8_3.jenerics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.jenerics.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.jenerics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice8_3.jenerics.too.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice8_3.jenerics.too.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice8_3.jenerics.too.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice8_3.jenerics.too.Main" />
+        <item itemvalue="Application.Practice8_3.jenerics.Main" />
+        <item itemvalue="Application.Practice8_3.Casting.too.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Practice8_3.P6.Main" />
-        <item itemvalue="Application.Practice8_3.P5.Main" />
-        <item itemvalue="Application.Practice8_3.P4.Main" />
-        <item itemvalue="Application.Practice8_3.P2.Main" />
-        <item itemvalue="Application.Practice8_2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +195,9 @@
       <workItem from="1682596541461" duration="686000" />
       <workItem from="1682861838251" duration="2774000" />
       <workItem from="1683013312266" duration="7790000" />
-      <workItem from="1683021531769" duration="5873000" />
+      <workItem from="1683021531769" duration="9470000" />
+      <workItem from="1683034738215" duration="995000" />
+      <workItem from="1683187760234" duration="22653000" />
     </task>
     <task id="LOCAL-00001" summary="Practice8_2">
       <created>1683013844250</created>
@@ -159,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683013844251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practice8_6">
+      <created>1683027633724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683027633724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practice8_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice8_2" />
+    <MESSAGE value="Practice8_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice8_6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
