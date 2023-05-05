@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Update Practice 8 p1&#10;Remove Bug in Store.java">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Update .gitignore &amp; workspace to switch">
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p4/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p5/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p1/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/cc/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/cc/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p1/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p2/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p3/Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p4/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Sortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Superman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/MP3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Resizable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tamrin7/p17/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tamrin7/p17/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,34 +83,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin9",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin9" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin9\generics" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin9\Final" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tamrin9.generics.p4" />
+      <recent name="tamrin9.generics.p1" />
+      <recent name="tamrin9.generics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.tamrin7.p17.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tamrin8.p1.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tamrin8.p1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tamrin3.p2" />
-      <module name="mapsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tamrin3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +144,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tamrin7.p17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin7.p17.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin7.p17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tamrin8.p2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tamrin8.p2.Main" />
       <module name="mapsa" />
@@ -103,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tamrin7.p17.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.tamrin8.p2.Main" />
         <item itemvalue="Application.p3" />
         <item itemvalue="Application.tamrin2.p1" />
-        <item itemvalue="Application.p2" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +198,10 @@
       <workItem from="1682277371968" duration="612000" />
       <workItem from="1682521692022" duration="397000" />
       <workItem from="1682783987016" duration="947000" />
+      <workItem from="1683275623222" duration="8000" />
+      <workItem from="1683275801521" duration="6000" />
+      <workItem from="1683275816928" duration="457000" />
+      <workItem from="1683276288052" duration="1601000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>

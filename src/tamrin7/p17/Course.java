@@ -39,7 +39,7 @@ public class Course {
         for (double grade : grades) {
             sum += grade;
         }
-        double avgAll = sum / grades.length;
+        double avgAll = sum / (grades.length -1);
         return avgAll;
     }
 }
