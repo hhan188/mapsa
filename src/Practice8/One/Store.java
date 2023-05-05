@@ -33,13 +33,17 @@ public class Store {
                 firstIfChecker = true;
                 if (customer.balance >= item.price) {
                     if (item.quantity > 0) {
-                        System.out.println("customer " + customer.name + " successfully buy " + item.name + " " + item.quantity + " qty.");
                         itemsInStock[i].quantity--;
                         customer.balance -= item.price;
                         for (int itemPurchasedCounter = 0; itemPurchasedCounter != -1; itemPurchasedCounter++) {
                             if (customer.itemsPurchased[itemPurchasedCounter] == null) {
                                 customer.itemsPurchased[itemPurchasedCounter] = item;
+                                customer.itemsPurchased[itemPurchasedCounter].quantity ++;
+                                customer.itemsPurchased[itemPurchasedCounter].name = item.name;
+                                customer.itemsPurchased[itemPurchasedCounter].price = item.price;
                                 itemPurchasedCounter = -1;
+                                System.out.println("customer " + customer.name + " successfully buy " + item.name + " " + "1 qty.");
+                                return;
                             }
                         }
                     }
@@ -51,4 +55,5 @@ public class Store {
         if (!firstIfChecker)
             System.out.println("Item hasn't added to the store!");
     }
+
 }
