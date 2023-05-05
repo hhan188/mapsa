@@ -1,0 +1,201 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9dd33100-6d93-4603-bdcc-4b568dd1cb5a\" name=\"Changes\" comment=\"Practice7\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Mol7VNLnBNTKOR7IQehygkm8Mu\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/soheyl/IdeaProjects/mapsa/src/SoheylSayyah&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/SoheylSayyah\" />\n      <recent name=\"$PROJECT_DIR$/src/Practice5\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"SoheylSayyah.Test\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9dd33100-6d93-4603-bdcc-4b568dd1cb5a\" name=\"Changes\" comment=\"\" />\n      <created>1678441650971</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1678441650971</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Test\">\n      <created>1681583887473</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681583887473</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Test1\">\n      <created>1681649622001</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681649622001</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Practice7\">\n      <created>1681984518277</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681984518277</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Test\" />\n    <MESSAGE value=\"Test1\" />\n    <MESSAGE value=\"Practice7\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Practice7\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice7">
++    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice8">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Customer.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Item.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoheylSayyah/Practice8/FirstProject/Store.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,6 +54,26 @@
+       <recent name="SoheylSayyah.Test" />
+     </key>
+   </component>
++  <component name="RunManager">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="SoheylSayyah.Practice8.FirstProject.Main" />
++      <module name="mapsa" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="SoheylSayyah.Practice8.FirstProject.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Main" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -80,7 +104,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681984518277</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Practice8">
++      <created>1682247382820</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1682247382820</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -98,6 +129,7 @@
+     <MESSAGE value="Test" />
+     <MESSAGE value="Test1" />
+     <MESSAGE value="Practice7" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Practice7" />
++    <MESSAGE value="Practice8" />
++    <option name="LAST_COMMIT_MESSAGE" value="Practice8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/SoheylSayyah/Practice8/FirstProject/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package SoheylSayyah.Practice8.FirstProject;\n\nimport java.util.ArrayList;\nimport java.util.Arrays;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Item> items = new ArrayList<Item>(3);\n        items.add(new Item(\"Banana\",20,5));\n        items.add(new Item(\"Apple\",25,10));\n        items.add(new Item(\"Lemon\",15,3));\n        ArrayList<Customer> customers = new ArrayList<Customer>(3);\n        customers.add(new Customer(\"Soheyl\",5000,items));\n        customers.add(new Customer(\"Ehsan\",8000,items));\n        customers.add(new Customer(\"Ali\",6000,items));\n        ArrayList<Item> itemsInStock = new ArrayList<Item>(5);\n        itemsInStock.add(new Item(\"Banana\",20,5));\n        itemsInStock.add(new Item(\"Apple\",25,10));\n        itemsInStock.add(new Item(\"Lemon\",15,3));\n        itemsInStock.add(new Item(\"Eggplant\",10,6));\n        itemsInStock.add(new Item(\"Egg\",28,2));\n        Store store = new Store(\"Daryaniha\",itemsInStock,customers);\n        Customer customer = new Customer(\"Ehsan\",8000,items);\n    }\n}\n
+===================================================================
+diff --git a/src/SoheylSayyah/Practice8/FirstProject/Main.java b/src/SoheylSayyah/Practice8/FirstProject/Main.java
+--- a/src/SoheylSayyah/Practice8/FirstProject/Main.java	
++++ b/src/SoheylSayyah/Practice8/FirstProject/Main.java	
+@@ -5,21 +5,19 @@
+ 
+ public class Main {
+     public static void main(String[] args) {
+-        ArrayList<Item> items = new ArrayList<Item>(3);
+-        items.add(new Item("Banana",20,5));
+-        items.add(new Item("Apple",25,10));
+-        items.add(new Item("Lemon",15,3));
+-        ArrayList<Customer> customers = new ArrayList<Customer>(3);
+-        customers.add(new Customer("Soheyl",5000,items));
+-        customers.add(new Customer("Ehsan",8000,items));
+-        customers.add(new Customer("Ali",6000,items));
+-        ArrayList<Item> itemsInStock = new ArrayList<Item>(5);
+-        itemsInStock.add(new Item("Banana",20,5));
+-        itemsInStock.add(new Item("Apple",25,10));
+-        itemsInStock.add(new Item("Lemon",15,3));
+-        itemsInStock.add(new Item("Eggplant",10,6));
+-        itemsInStock.add(new Item("Egg",28,2));
+-        Store store = new Store("Daryaniha",itemsInStock,customers);
+-        Customer customer = new Customer("Ehsan",8000,items);
++        ArrayList<Item> itemsInStock = new ArrayList<>();
++        ArrayList<Customer> customers = new ArrayList<>();
++        Store store = new Store();
++        Item item1 = new Item("iphone 13",12.8,20);
++        Item item2 = new Item("iphone 14",19.8,20);
++        store.addItem(item1);
++        store.addItem(item2);
++        ArrayList<Item> itemsPurchased = new ArrayList<>();
++        Customer customer1 = new Customer("Haniye",580,itemsPurchased);
++        Customer customer2 = new Customer("Haniye",580,itemsPurchased);
++        store.addCustomer(customer1);
++        store.addCustomer(customer2);
++        store.sellItem(customer1,item1);
++        System.out.println(store.toString());
+     }
+ }
+Index: src/SoheylSayyah/Practice8/FirstProject/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package SoheylSayyah.Practice8.FirstProject;\n\nimport java.util.ArrayList;\n\npublic class Customer {\n    private String name;\n    private double balance;\n    private ArrayList<Item> itemsPurchased;\n\n    public Customer(String name, double balance, ArrayList<Item> itemsPurchased) {\n        this.name = name;\n        this.balance = balance;\n        this.itemsPurchased = itemsPurchased;\n    }\n\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    public double getBalance() {\n        return balance;\n    }\n\n    public void setBalance(double balance) {\n        this.balance = balance;\n    }\n\n    public ArrayList<Item> getItemsPurchased() {\n        return itemsPurchased;\n    }\n\n    public void setItemsPurchased(ArrayList<Item> itemsPurchased) {\n        this.itemsPurchased = itemsPurchased;\n    }\n    public void addCustomer(Customer customer){\n        customer.addCustomer(customer);\n    }\n}\n
+===================================================================
+diff --git a/src/SoheylSayyah/Practice8/FirstProject/Customer.java b/src/SoheylSayyah/Practice8/FirstProject/Customer.java
+--- a/src/SoheylSayyah/Practice8/FirstProject/Customer.java	
++++ b/src/SoheylSayyah/Practice8/FirstProject/Customer.java	
+@@ -39,4 +39,7 @@
+     public void addCustomer(Customer customer){
+         customer.addCustomer(customer);
+     }
++
++    public Customer() {
++    }
+ }
+Index: src/SoheylSayyah/Practice8/FirstProject/Item.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package SoheylSayyah.Practice8.FirstProject;\n\npublic class Item {\n    private String name;\n    private double price;\n    private int quantity;\n\n    public Item(String name, double price, int quantity) {\n        this.name = name;\n        this.price = price;\n        this.quantity = quantity;\n    }\n\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    public double getPrice() {\n        return price;\n    }\n\n    public void setPrice(double price) {\n        this.price = price;\n    }\n\n    public int getQuantity() {\n        return quantity;\n    }\n\n    public void setQuantity(int quantity) {\n        this.quantity = quantity;\n    }\n    public void addItem(Item item){\n        item.addItem(item);\n    }\n}\n
+===================================================================
+diff --git a/src/SoheylSayyah/Practice8/FirstProject/Item.java b/src/SoheylSayyah/Practice8/FirstProject/Item.java
+--- a/src/SoheylSayyah/Practice8/FirstProject/Item.java	
++++ b/src/SoheylSayyah/Practice8/FirstProject/Item.java	
+@@ -37,4 +37,7 @@
+     public void addItem(Item item){
+         item.addItem(item);
+     }
++
++    public Item() {
++    }
+ }
+Index: src/SoheylSayyah/Practice8/FirstProject/Store.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package SoheylSayyah.Practice8.FirstProject;\n\nimport java.util.ArrayList;\n\npublic class Store {\n    private String name;\n    private static ArrayList<Item> itemsInStock;\n    private ArrayList<Customer> customers;\n    public Store(String name, ArrayList<Item> itemsInStock, ArrayList<Customer> customers) {\n        this.name = name;\n        this.itemsInStock = itemsInStock;\n        this.customers = customers;\n    }\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n\n    public ArrayList<Item> getItemsInStock() {\n        return itemsInStock;\n    }\n\n    public void setItemsInStock(ArrayList<Item> itemsInStock) {\n        this.itemsInStock = itemsInStock;\n    }\n\n    public ArrayList<Customer> getCustomers() {\n        return customers;\n    }\n\n    public void setCustomers(ArrayList<Customer> customers) {\n        this.customers = customers;\n    }\n    public void sellItem(Customer customer,Item item){\n        if (customer.getBalance() >= item.getPrice() && itemsInStock.contains(item)){\n            itemsInStock.remove(item);\n            customer.getItemsPurchased().add(item);\n            customer.setBalance(customer.getBalance() - item.getPrice());\n        }\n    }\n}\n
+===================================================================
+diff --git a/src/SoheylSayyah/Practice8/FirstProject/Store.java b/src/SoheylSayyah/Practice8/FirstProject/Store.java
+--- a/src/SoheylSayyah/Practice8/FirstProject/Store.java	
++++ b/src/SoheylSayyah/Practice8/FirstProject/Store.java	
+@@ -4,8 +4,8 @@
+ 
+ public class Store {
+     private String name;
+-    private static ArrayList<Item> itemsInStock;
+-    private ArrayList<Customer> customers;
++    private ArrayList <Item> itemsInStock;
++    private ArrayList <Customer> customers;
+     public Store(String name, ArrayList<Item> itemsInStock, ArrayList<Customer> customers) {
+         this.name = name;
+         this.itemsInStock = itemsInStock;
+@@ -36,9 +36,27 @@
+     }
+     public void sellItem(Customer customer,Item item){
+         if (customer.getBalance() >= item.getPrice() && itemsInStock.contains(item)){
++
++
++
+             itemsInStock.remove(item);
+-            customer.getItemsPurchased().add(item);
++            ArrayList<Item> items = customer.getItemsPurchased();
++            items.add(item);
++            customer.setItemsPurchased(items);
+             customer.setBalance(customer.getBalance() - item.getPrice());
+         }
+     }
++    public void addCustomer(Customer customer){
++        customer.addCustomer(customer);
++    }
++    public void addItem(Item item){
++        itemsInStock.add(item) ;
++    }
++
++    public Store() {
++    }
++
++    public Store(String name) {
++        this.name = name;
++    }
+ }
