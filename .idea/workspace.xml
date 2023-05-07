@@ -1,66 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Update .gitignore &amp; workspace to switch">
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p3/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p4/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/Final/p5/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p1/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/ThisVSSuper/p2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p1/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/UpDownCasting/p2/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/cc/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/cc/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p1/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p2/Max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p3/Contains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/generics/p4/Option.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Sortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p1/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p3/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p4/Superman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/CDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/MP3Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p5/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin9/interfaces/p6/Resizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tamrin7/p17/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tamrin7/p17/Course.java" afterDir="false" />
-    </list>
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 9 Added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +142,7 @@
       <workItem from="1683275623222" duration="8000" />
       <workItem from="1683275801521" duration="6000" />
       <workItem from="1683275816928" duration="457000" />
-      <workItem from="1683276288052" duration="1601000" />
+      <workItem from="1683276288052" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -245,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682521987760</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tamrin 9 Added">
+      <created>1683278251908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683278251908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +274,7 @@
     <MESSAGE value="Practice 2,3,4,6 that done before, is Added" />
     <MESSAGE value="Practice 8 p1 &amp; p2 done" />
     <MESSAGE value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
+    <MESSAGE value="Tamrin 9 Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 9 Added" />
   </component>
 </project>
