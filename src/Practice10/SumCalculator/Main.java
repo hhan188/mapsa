@@ -1,4 +1,4 @@
-package Practice9.SumCalculator;
+package Practice10.SumCalculator;
 
 public class Main {
     public static void main(String[] args) {

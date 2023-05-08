@@ -1,4 +1,4 @@
-package Practice9.person;
+package Practice10.person;
 
 public class Person {
         private String firstName;

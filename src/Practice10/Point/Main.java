@@ -1,4 +1,4 @@
-package Practice9.Point;
+package Practice10.Point;
 
 public class Main {
     public static void main(String[] args) {

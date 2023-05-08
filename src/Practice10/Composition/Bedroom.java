@@ -1,4 +1,4 @@
-package Practice9.Composition;
+package Practice10.Composition;
 
 public class Bedroom {
     private String Wall1;

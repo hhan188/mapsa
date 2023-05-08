@@ -1,4 +1,4 @@
-package Practice9.SumCalculator;
+package Practice10.SumCalculator;
 
 public class SimpleCalculator {
     private double firstNumber;

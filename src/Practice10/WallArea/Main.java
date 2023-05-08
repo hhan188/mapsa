@@ -1,4 +1,4 @@
-package Practice9.WallArea;
+package Practice10.WallArea;
 
 public class Main {
     public static void main(String[] args) {

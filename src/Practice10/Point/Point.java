@@ -1,4 +1,4 @@
-package Practice9.Point;
+package Practice10.Point;
 
 public class Point {
     private int x;
@@ -37,6 +37,7 @@ public class Point {
     public int distance(int a,int b){
         return (int) Math.sqrt((a-x)*(a-x)+(b-y)*(b-y));
     }
+
 
 
 }
