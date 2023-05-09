@@ -4,54 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice8_6">
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Casting/too/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/ConstructorChaining/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/ConstructorChaining/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/Final/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P1/Sortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P3/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P4/Superman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/CDPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/MP3Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/P6/Resizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/too/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/jenerics/too/Option.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/thisAndSuper/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice8_3/thisAndSuper/Manager.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice10">
+      <change afterPath="$PROJECT_DIR$/src/Practice11/Three/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/five/GradeOutOfRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/five/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/five/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/four/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/one/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/six/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/six/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/six/SeatAlreadyBookedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/too/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/too/text2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice11/zero/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice10/io/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice10/io/text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +28,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="AliHajesmaeily &lt;ali.hajesmaeily71@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Hanieh" />
@@ -93,7 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ershadbakhsh/project/mapsa/mapsa&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my-intellij-projects/mapsa/mapsa&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,13 +78,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice8_3.jenerics.too.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my-intellij-projects\mapsa\mapsa" />
+      <recent name="D:\my-intellij-projects\mapsa\mapsa\src" />
+      <recent name="D:\my-intellij-projects\mapsa\mapsa\src\Practice11" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Practice11.six.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.Casting.Main" />
+      <option name="MAIN_CLASS_NAME" value="Practice11.too.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.Casting.*" />
+          <option name="PATTERN" value="Practice11.too.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice8_3.Casting.too.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.Casting.too.Main" />
+    <configuration name="Practice11.Three.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.Three.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.Casting.too.*" />
+          <option name="PATTERN" value="Practice11.Three.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice8_3.P6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.P6.Main" />
+    <configuration name="Practice11.five.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.five.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.P6.*" />
+          <option name="PATTERN" value="Practice11.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice8_3.jenerics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.jenerics.Main" />
+    <configuration name="Practice11.four.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.four.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.jenerics.*" />
+          <option name="PATTERN" value="Practice11.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice8_3.jenerics.too.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice8_3.jenerics.too.Main" />
+    <configuration name="Practice11.six.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.six.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice8_3.jenerics.too.*" />
+          <option name="PATTERN" value="Practice11.six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Practice8_3.jenerics.too.Main" />
-        <item itemvalue="Application.Practice8_3.jenerics.Main" />
-        <item itemvalue="Application.Practice8_3.Casting.too.Main" />
+        <item itemvalue="Application.Practice11.six.Main" />
+        <item itemvalue="Application.Practice11.five.Main" />
+        <item itemvalue="Application.Practice11.four.Main" />
+        <item itemvalue="Application.Practice11.Three.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Practice8_3.P6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +176,16 @@
       <workItem from="1683013312266" duration="7790000" />
       <workItem from="1683021531769" duration="9470000" />
       <workItem from="1683034738215" duration="995000" />
-      <workItem from="1683187760234" duration="22653000" />
+      <workItem from="1683187760234" duration="23190000" />
+      <workItem from="1683363689904" duration="15024000" />
+      <workItem from="1683380077051" duration="2915000" />
+      <workItem from="1683454736175" duration="1600000" />
+      <workItem from="1683456729954" duration="4005000" />
+      <workItem from="1683461576823" duration="893000" />
+      <workItem from="1683463107477" duration="6008000" />
+      <workItem from="1683539341870" duration="16801000" />
+      <workItem from="1683625412627" duration="11020000" />
+      <workItem from="1683639447206" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="Practice8_2">
       <created>1683013844250</created>
@@ -213,7 +201,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683027633724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Practice8_6_3">
+      <created>1683213293025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213293025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Practice8_6_3">
+      <created>1683213778228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213778228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Practice9_1">
+      <created>1683380143137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683380143137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Practice10">
+      <created>1683545112410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683545112410</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +261,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practice8_2" />
     <MESSAGE value="Practice8_6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice8_6" />
+    <MESSAGE value="Practice8_End" />
+    <MESSAGE value="Practice8_6_3" />
+    <MESSAGE value="Practice9_1" />
+    <MESSAGE value="Practice10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
