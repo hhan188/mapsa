@@ -13,6 +13,12 @@ public class Main {
         } catch (SeatAlreadyBookedException e) {
             throw new RuntimeException(e);
         }
+        try {
+            fl.seatBooking(2,"reza");
+
+        } catch (SeatAlreadyBookedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println(seatCancelingBooking);
 
         try {
