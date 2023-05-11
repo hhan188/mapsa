@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="add practice 7changes to git" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice 9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +19,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -41,6 +47,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -218,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682780968049</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="practice 9">
+      <created>1683462674370</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683462674370</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +254,7 @@
     <MESSAGE value="add practice 7 to git" />
     <MESSAGE value="add practice 7 changes to git" />
     <MESSAGE value="add practice 7changes to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add practice 7changes to git" />
+    <MESSAGE value="practice 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice 9" />
   </component>
 </project>
