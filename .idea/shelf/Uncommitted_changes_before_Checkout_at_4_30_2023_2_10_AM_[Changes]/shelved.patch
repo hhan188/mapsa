@@ -1,0 +1,542 @@
+Index: src/Practice8_2/Bank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_2;\r\n\r\npublic class Bank {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_2/Bank.java b/src/Practice8_2/Bank.java
+--- a/src/Practice8_2/Bank.java	
++++ b/src/Practice8_2/Bank.java	
+@@ -1,4 +1,83 @@
+ package Practice8_2;
+ 
++import java.util.ArrayList;
++
+ public class Bank {
++    ArrayList<Account> accounts=new ArrayList<>();
++    private int currentAccountIndex;
++    private String currentDate;//تاریخ فعلی
++
++    public Bank(ArrayList<Account> accounts, int currentAccountIndex, String currentDate) {
++        this.accounts = accounts;
++        this.currentAccountIndex = currentAccountIndex;
++        this.currentDate = currentDate;
++    }
++
++    public Bank() {
++    }
++
++    public ArrayList<Account> getAccounts() {
++        return accounts;
++    }
++
++    public void setAccounts(ArrayList<Account> accounts) {
++        this.accounts = accounts;
++    }
++
++    public int getCurrentAccountIndex() {
++        return currentAccountIndex;
++    }
++
++    public void setCurrentAccountIndex(int currentAccountIndex) {
++        this.currentAccountIndex = currentAccountIndex;
++    }
++
++    public String getCurrentDate() {
++        return currentDate;
++    }
++
++    public void setCurrentDate(String currentDate) {
++        this.currentDate = currentDate;
++    }
++
++    @Override
++    public String toString() {
++        return "Bank{" +
++                "accounts=" + accounts +
++                ", currentAccountIndex=" + currentAccountIndex +
++                ", currentDate='" + currentDate + '\'' +
++                '}';
++    }
++    Account account=new Account();
++
++    public void deposit(int accountNumber, double amount, String description){
++        if (accounts.contains(accountNumber)&&amount>0){
++            account.setBalance(account.getBalance()+amount);
++            ArrayList<Transaction> transactions=new ArrayList<>();
++            transactions.add(new Transaction());
++
++
++        }
++    }
++
++    public void withdraw(int accountNumber, double amount, String description){
++        if (accounts.contains(accountNumber)&&amount>0&&account.getBalance()>amount){
++            account.setBalance(account.getBalance()-amount);
++            ArrayList<Transaction> transactions=new ArrayList<>();
++            transactions.add(new Transaction());
++
++
++        }
++    }
++
++
++
++    public void addAccount(Account account){
++        accounts.add(account);
++    }
++    public void addTransAction(Transaction transaction){
++        account.getTransactions().add(transaction);
++
++    }
++
+ }
+Index: src/Practice8_2/Transaction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_2;\r\n\r\npublic class Transaction {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_2/Transaction.java b/src/Practice8_2/Transaction.java
+--- a/src/Practice8_2/Transaction.java	
++++ b/src/Practice8_2/Transaction.java	
+@@ -1,4 +1,60 @@
+ package Practice8_2;
+ 
+ public class Transaction {
++    private String date;
++    private String type;
++    private double amount;
++    private String description;
++
++    public Transaction(String date, String type, double amount, String description) {
++        this.date = date;
++        this.type = type;
++        this.amount = amount;
++        this.description = description;
++    }
++
++    public Transaction() {
++    }
++
++    public String getDate() {
++        return date;
++    }
++
++    public void setDate(String date) {
++        this.date = date;
++    }
++
++    public String getType() {
++        return type;
++    }
++
++    public void setType(String type) {
++        this.type = type;
++    }
++
++    public double getAmount() {
++        return amount;
++    }
++
++    public void setAmount(double amount) {
++        this.amount = amount;
++    }
++
++    public String getDescription() {
++        return description;
++    }
++
++    public void setDescription(String description) {
++        this.description = description;
++    }
++
++    @Override
++    public String toString() {
++        return "Transaction{" +
++                "date='" + date + '\'' +
++                ", type='" + type + '\'' +
++                ", amount=" + amount +
++                ", description='" + description + '\'' +
++                '}';
++    }
+ }
+Index: src/Practice8_2/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_2;\r\n\r\npublic class Account {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_2/Account.java b/src/Practice8_2/Account.java
+--- a/src/Practice8_2/Account.java	
++++ b/src/Practice8_2/Account.java	
+@@ -1,4 +1,62 @@
+ package Practice8_2;
+ 
++import java.util.ArrayList;
++
+ public class Account {
++    private int accountNumber;
++    private String accountHolderName;
++    private double balance;
++    ArrayList<Transaction> transactions=new ArrayList<>();
++
++    public Account(int accountNumber, String accountHolderName, double balance, ArrayList<Transaction> transactions) {
++        this.accountNumber = accountNumber;
++        this.accountHolderName = accountHolderName;
++        this.balance = balance;
++        this.transactions = transactions;
++    }
++
++    public Account() {
++    }
++
++    public int getAccountNumber() {
++        return accountNumber;
++    }
++
++    public void setAccountNumber(int accountNumber) {
++        this.accountNumber = accountNumber;
++    }
++
++    public String getAccountHolderName() {
++        return accountHolderName;
++    }
++
++    public void setAccountHolderName(String accountHolderName) {
++        this.accountHolderName = accountHolderName;
++    }
++
++    public double getBalance() {
++        return balance;
++    }
++
++    public void setBalance(double balance) {
++        this.balance = balance;
++    }
++
++    public ArrayList<Transaction> getTransactions() {
++        return transactions;
++    }
++
++    public void setTransactions(ArrayList<Transaction> transactions) {
++        this.transactions = transactions;
++    }
++
++    @Override
++    public String toString() {
++        return "Account{" +
++                "accountNumber=" + accountNumber +
++                ", accountHolderName='" + accountHolderName + '\'' +
++                ", balance=" + balance +
++                ", transactions=" + transactions +
++                '}';
++    }
+ }
+Index: src/Practice8_2/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_2;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_2/Main.java b/src/Practice8_2/Main.java
+--- a/src/Practice8_2/Main.java	
++++ b/src/Practice8_2/Main.java	
+@@ -1,7 +1,35 @@
+ package Practice8_2;
+ 
++import java.util.ArrayList;
++
+ public class Main {
+     public static void main(String[] args) {
+ 
++        ArrayList<Transaction> transactions=new ArrayList<>();
++        ArrayList<Account> accounts=new ArrayList<>();
++
++
++
++        Transaction transaction1=new Transaction("1402.05.01","jari",10000,"abcd");
++        Transaction transaction2=new Transaction("1402.02.01","jari",12000,"abcd");
++        Transaction transaction3=new Transaction("1402.03.01","jari",14000,"abcd");
++
++
++        Account account1=new Account(66258988,"Ali",800000,transactions);
++        Account account2=new Account(66258988,"Karim",800000,transactions);
++        Account account3=new Account(66258988,"mori",800000,transactions);
++
++        Bank bank=new Bank(accounts,1,"1402.05.08");
++        bank.addAccount(account1);
++        bank.addTransAction(transaction1);
++        bank.deposit(123456,20000,"aaa");
++
++
++        System.out.println(bank.toString());
++
++
++
++
++
+     }
+ }
+Index: src/Practice8_1/Store.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_1;\r\n\r\npublic class Store {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_1/Store.java b/src/Practice8_1/Store.java
+--- a/src/Practice8_1/Store.java	
++++ b/src/Practice8_1/Store.java	
+@@ -1,4 +1,86 @@
+ package Practice8_1;
+ 
++import java.util.ArrayList;
++
+ public class Store {
++    String name;
++    ArrayList<Item> itemsInStock=new ArrayList<>();
++    ArrayList<Customer> customers=new ArrayList<>();
++
++    public void addCustomer(Customer customer){
++        customers.add(customer);
++    }
++    public void addItem(Item item){
++        itemsInStock.add(item);
++    }
++
++
++    public Store(String name, ArrayList<Item> itemsInStock, ArrayList<Customer> customers) {
++        this.name = name;
++        this.itemsInStock = itemsInStock;
++        this.customers = customers;
++    }
++
++    public Store() {
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public ArrayList<Item> getItemsInStock() {
++        return itemsInStock;
++    }
++
++    public void setItemsInStock(ArrayList<Item> itemsInStock) {
++        this.itemsInStock = itemsInStock;
++    }
++
++    public ArrayList<Customer> getCustomers() {
++        return customers;
++    }
++
++    public void setCustomers(ArrayList<Customer> customers) {
++        this.customers = customers;
++    }
++
++    public void sellItem(Customer customer,Item item){
++        if (itemsInStock.contains(item) && customer.getBalance()>=item.getPrice()){
++            itemsInStock.remove(item);
++            item.setQuantity(item.getQuantity() - 1);
++
++            ArrayList<Item> items=customer.getItemsPurchased();
++
++            int q = 1;
++            if (items.contains(item)) {
++                q = item.getQuantity() + 1;
++                item.setQuantity(q);
++            } else if (items.contains(item) == false) {
++                Item customerItem = new Item(item.getName(), item.getPrice(), q);
++                items.add(customerItem);
++            }
++            customer.setItemsPurchased(items);
++            customer.setBalance(customer.getBalance() - item.getPrice());
++
++        }
++
++
++
++    }
++
++    @Override
++    public String toString() {
++        return "Store{" +
++                "name='" + name + '\'' +
++                ", itemsInStock=" + itemsInStock +
++                ", customers=" + customers +
++                '}';
++    }
++
++
++
+ }
+Index: src/Practice8_1/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_1;\r\n\r\npublic class Customer {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_1/Customer.java b/src/Practice8_1/Customer.java
+--- a/src/Practice8_1/Customer.java	
++++ b/src/Practice8_1/Customer.java	
+@@ -1,4 +1,59 @@
+ package Practice8_1;
+ 
++import java.util.ArrayList;
++
+ public class Customer {
++    private String name;
++    private double balance;// موجودی
++    ArrayList<Item> itemsPurchased=new ArrayList<>();//اقلام خریداری شده
++
++    public Customer(String name, double balance, ArrayList<Item> items) {
++        this.name = name;
++        this.balance = balance;
++        this.itemsPurchased = items;
++    }
++
++    public Customer() {
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public double getBalance() {
++        return balance;
++    }
++
++    public void setBalance(double balance) {
++        this.balance = balance;
++    }
++
++    public ArrayList<Item> getItems() {
++        return itemsPurchased;
++    }
++
++    public void setItems(ArrayList<Item> items) {
++        this.itemsPurchased = items;
++    }
++
++    public ArrayList<Item> getItemsPurchased() {
++        return itemsPurchased;
++    }
++
++    public void setItemsPurchased(ArrayList<Item> itemsPurchased) {
++        this.itemsPurchased = itemsPurchased;
++    }
++
++    @Override
++    public String toString() {
++        return "Customer{" +
++                "name='" + name + '\'' +
++                ", balance=" + balance +
++                ", itemsPurchased=" + itemsPurchased +
++                '}';
++    }
+ }
+Index: src/Practice8_1/Item.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_1;\r\n\r\npublic class Item {\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_1/Item.java b/src/Practice8_1/Item.java
+--- a/src/Practice8_1/Item.java	
++++ b/src/Practice8_1/Item.java	
+@@ -1,4 +1,49 @@
+ package Practice8_1;
+ 
+ public class Item {
++    private String name;//نام
++    private double price;//قیمت
++    private int quantity;//// مقدار
++
++    public Item(String name, double price, int quantity) {
++        this.name = name;
++        this.price = price;
++        this.quantity = quantity;
++    }
++
++    public Item() {
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public double getPrice() {
++        return price;
++    }
++
++    public void setPrice(double price) {
++        this.price = price;
++    }
++
++    public int getQuantity() {
++        return quantity;
++    }
++
++    public void setQuantity(int quantity) {
++        this.quantity = quantity;
++    }
++
++    @Override
++    public String toString() {
++        return "Item{" +
++                "name='" + name + '\'' +
++                ", price=" + price +
++                ", quantity=" + quantity +
++                '}';
++    }
+ }
+Index: src/Practice8_1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Practice8_1;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Practice8_1/Main.java b/src/Practice8_1/Main.java
+--- a/src/Practice8_1/Main.java	
++++ b/src/Practice8_1/Main.java	
+@@ -1,7 +1,36 @@
+ package Practice8_1;
+ 
++import java.util.ArrayList;
++import java.util.Arrays;
++
+ public class Main {
+     public static void main(String[] args) {
+ 
++       ArrayList<Item> itemsPurchased=new ArrayList<>();//اقلام خریداری شده
++        ArrayList<Item> itemsInStock=new ArrayList<>();//آیتم های موجود در فروشگاه
++        ArrayList<Customer> customers=new ArrayList<>();//فروشگاه ها
++
++        Item item1=new Item("shows",200000,50);
++        Item item2=new Item("shiami",500000,20);
++
++        Store store=new Store("DigiKala",itemsInStock,customers);
++        store.addItem(item1);
++        store.addItem(item2);
++
++        Customer customer1=new Customer("Ali",1200000,itemsPurchased);
++        Customer customer2=new Customer("haniye",1500000,itemsPurchased);
++        store.addCustomer(customer1);
++        store.addCustomer(customer2);
++
++        store.sellItem(customer1,item1);
++
++        store.sellItem(customer1,item1);
++
++        System.out.println(store);
++
++
++
++
++
+     }
+ }

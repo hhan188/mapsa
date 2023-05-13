@@ -4,21 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice10">
-      <change afterPath="$PROJECT_DIR$/src/Practice11/Three/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/five/GradeOutOfRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/five/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/five/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/four/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/one/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/six/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/six/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/six/SeatAlreadyBookedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/too/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/too/text2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice11/zero/Main.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="P11">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2023_4_34_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2023_4_34_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2023_4_43_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2023_4_43_AM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2023_4_43_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_30_2023_2_10_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_30_2023_2_10_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_30_2023_3_07_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_30_2023_3_07_AM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_30_2023_3_07_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ali.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice12_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eleven.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seven.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice12/one/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice12/too/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thirteen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twelve.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice10/io/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice10/io/text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,6 +82,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -85,13 +94,13 @@
       <recent name="D:\my-intellij-projects\mapsa\mapsa\src\Practice11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice11.six.Main">
+  <component name="RunManager" selected="Application.Practice12.too.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice11.too.Main" />
+      <option name="MAIN_CLASS_NAME" value="Practice11.eleven.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice11.too.*" />
+          <option name="PATTERN" value="Practice11.eleven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice11.Three.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice11.Three.Main" />
+    <configuration name="Practice11.thirteen.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.thirteen.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice11.Three.*" />
+          <option name="PATTERN" value="Practice11.thirteen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice11.five.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice11.five.Main" />
+    <configuration name="Practice11.twelve.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice11.twelve.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice11.five.*" />
+          <option name="PATTERN" value="Practice11.twelve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice11.four.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice11.four.Main" />
+    <configuration name="Practice12.one.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice12.one.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice11.four.*" />
+          <option name="PATTERN" value="Practice12.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice11.six.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice11.six.Main" />
+    <configuration name="Practice12.too.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice12.too.Main" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice11.six.*" />
+          <option name="PATTERN" value="Practice12.too.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Practice11.six.Main" />
-        <item itemvalue="Application.Practice11.five.Main" />
-        <item itemvalue="Application.Practice11.four.Main" />
-        <item itemvalue="Application.Practice11.Three.Main" />
+        <item itemvalue="Application.Practice12.too.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Practice11.thirteen.Main" />
+        <item itemvalue="Application.Practice12.one.Main" />
+        <item itemvalue="Application.Practice11.twelve.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +194,9 @@
       <workItem from="1683463107477" duration="6008000" />
       <workItem from="1683539341870" duration="16801000" />
       <workItem from="1683625412627" duration="11020000" />
-      <workItem from="1683639447206" duration="1730000" />
+      <workItem from="1683639447206" duration="6519000" />
+      <workItem from="1683711710219" duration="14406000" />
+      <workItem from="1683966029188" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="Practice8_2">
       <created>1683013844250</created>
@@ -229,7 +240,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683545112410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="P11_1">
+      <created>1683643304576</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683643304576</updated>
+    </task>
+    <task id="LOCAL-00008" summary="P12">
+      <created>1683723131033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683723131033</updated>
+    </task>
+    <task id="LOCAL-00009" summary="P11">
+      <created>1683723516815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683723516815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +297,10 @@
     <MESSAGE value="Practice8_6_3" />
     <MESSAGE value="Practice9_1" />
     <MESSAGE value="Practice10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice10" />
+    <MESSAGE value="P11_1" />
+    <MESSAGE value="P12" />
+    <MESSAGE value="P11" />
+    <option name="LAST_COMMIT_MESSAGE" value="P11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
