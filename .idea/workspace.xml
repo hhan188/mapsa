@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 8 Reza Fazeli">
-      <change afterPath="$PROJECT_DIR$/src/ha/shghh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,10 @@
       <option name="presentableId" value="Default" />
       <updated>1678441650971</updated>
       <workItem from="1682773744057" duration="5305000" />
+      <workItem from="1682795746129" duration="1241000" />
+      <workItem from="1682853765522" duration="76000" />
+      <workItem from="1683380160438" duration="654000" />
+      <workItem from="1683955182636" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Tamrin 8 Reza Fazeli">
       <created>1682774971377</created>
