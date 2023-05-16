@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 10 Added">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 11 Added">
+      <change afterPath="$PROJECT_DIR$/src/tamrin12/p1/AvgCsvFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin12/p1/numbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin12/p2/WordReplacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin12/p2/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,30 +30,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;W:/Java/Mapsa/mapsa/src/tamrin10&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin12",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin11" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin10" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin10\" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin9" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin9\generics" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin9\Final" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tamrin9.generics.p4" />
-      <recent name="tamrin9.generics.p1" />
-      <recent name="tamrin9.generics" />
+      <recent name="tamrin11.p13" />
+      <recent name="tamrin11.p12" />
+      <recent name="tamrin11.p11" />
+      <recent name="tamrin11.p9" />
+      <recent name="tamrin11.p7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tamrin7.p17.Main">
+  <component name="RunManager" selected="Application.AvgCsvFile">
+    <configuration name="AvgCsvFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tamrin12.p1.AvgCsvFile" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tamrin12.p1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tamrin8.p1.Main" />
       <module name="mapsa" />
@@ -65,19 +84,6 @@
     </configuration>
     <configuration name="p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tamrin2.p3" />
-      <module name="mapsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tamrin2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tamrin2.p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tamrin2.p1" />
       <module name="mapsa" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AvgCsvFile" />
         <item itemvalue="Application.tamrin7.p17.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.tamrin8.p2.Main" />
         <item itemvalue="Application.p3" />
-        <item itemvalue="Application.tamrin2.p1" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +155,8 @@
       <workItem from="1683276288052" duration="1720000" />
       <workItem from="1683445367948" duration="798000" />
       <workItem from="1683914921278" duration="14000" />
+      <workItem from="1684076211556" duration="662000" />
+      <workItem from="1684225573053" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -206,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683445597165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tamrin 11 Added">
+      <created>1684076574700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684076574700</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +304,7 @@
     <MESSAGE value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
     <MESSAGE value="Tamrin 9 Added" />
     <MESSAGE value="Tamrin 10 Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 10 Added" />
+    <MESSAGE value="Tamrin 11 Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 11 Added" />
   </component>
 </project>
