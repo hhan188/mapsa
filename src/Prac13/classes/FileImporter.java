@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class FileImporter {
+    private int newRowCount;
+    private int newColCount;
     /**
      * read and extract rows from an csv file
      * @param filePath path to the csv file
@@ -33,12 +35,27 @@ public class FileImporter {
     public ArrayList<Seat> extractSeatsFromCsv(String filePath) {
         ArrayList<String[]> rows = extractCsvRows(filePath);
         ArrayList<Seat> seats = new ArrayList<>();
+        int newRowCount = 0;
+        int seatCount = 0;
         for (String[] row : rows) {
+            seatCount++;
             int rowNumber  = Integer.parseInt(row[0]);
             int seatNumber = Integer.parseInt(row[1]);
+            if (rowNumber > newRowCount) {
+                newRowCount = rowNumber;
+            }
             boolean availability = row[2].equals("true");
             seats.add(new Seat(seatNumber, rowNumber, availability));
         }
+        this.newRowCount = newRowCount;
+        this.newColCount = seatCount / newRowCount;
         return seats;
+    }
+    public int getNewRowCount() {
+        return newRowCount;
+    }
+
+    public int getNewColCount() {
+        return newColCount;
     }
 }

@@ -170,6 +170,8 @@ public class Theater {
     public void importSeatsFromCsv (String filePath) {
         ArrayList<Seat> importedSeats = fileImporter.extractSeatsFromCsv(filePath);
         setSeats(importedSeats);
+        setRows(fileImporter.getNewRowCount());
+        setCols(fileImporter.getNewColCount());
     }
 
     /**
@@ -189,6 +191,13 @@ public class Theater {
 
     private void setSeats(ArrayList<Seat> seats) {
         this.seats = seats;
+    }
+    private void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    private void setCols(int cols) {
+        this.cols = cols;
     }
 
     public int getRows() {
