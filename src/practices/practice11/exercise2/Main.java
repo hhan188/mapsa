@@ -13,4 +13,8 @@ public class Main {
             System.out.println(e.getMessage());
         }
     }
+
+    //Write a program that reads data from a file using a FileInputStream.
+    // Handle the FileNotFoundException that might be thrown if the file does not exist.
+
 }

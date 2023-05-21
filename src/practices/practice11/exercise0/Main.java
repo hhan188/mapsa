@@ -1,6 +1,5 @@
 package practices.practice11.exercise0;
 
-import java.io.File;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

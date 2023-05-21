@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public abstract class Main {
+public  class Main {
 
 
 
@@ -25,6 +25,7 @@ public abstract class Main {
         System.out.println("Welcome "+n);
     }
 
-
-
+    //Write a program that reads a list of numbers from a file and calculates their average.
+    // Handle the NumberFormatException that might be thrown if the file contains non-numeric data,
+    // and the IOException that might be thrown if there is an error reading the file.
 }
