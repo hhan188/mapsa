@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
+src/Practic8/.idea
+src/Practic8/FirstProject/.idea
 
 ### Eclipse ###
 .apt_generated
