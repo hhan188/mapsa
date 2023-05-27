@@ -8,69 +8,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/A.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/B.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/C.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/D.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/E.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/F.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/G.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/H.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/I.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/J.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/New Microsoft Word Document.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parctice7-question/practice7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarBrands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/CarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/BankUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/ProductsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise25/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practices/practice7/exercise27/TernaryUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapsa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise10/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise10/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/FindNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise11/FindNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/FindString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise12/FindString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise13/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise13/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise14/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise14/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise15/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise15/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise16/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise16/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise16/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise17/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise17/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise18/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise18/PersonAverageAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise18/PersonAverageAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise19/CircleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise19/CircleUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise22/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise23/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise23/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise24/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise25/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise25/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise26/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise26/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise27/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise27/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise4/RandomNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise4/RandomNumbersArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/AverageOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise5/AverageOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise6/SmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise6/SmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise7/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise7/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practices/practice7/exercise8/AddCorresponding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice7/exercise8/AddCorresponding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5b5feef5-c63d-458b-a320-6896f32218d1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5b5feef5-c63d-458b-a320-6896f32218d1/storage_v2/_src_/schema/SYS.rUIBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5b5feef5-c63d-458b-a320-6896f32218d1/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice13/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice13/controller/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice13/guidnes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice13/utils/SeatAvailability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice13/utils/UserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/thisvssuper/exercise1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/thisvssuper/exercise1/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/thisvssuper/exercise2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/thisvssuper/exercise2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/upcasting/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/upcasting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/upcasting/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practices/practice9/upcasting/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/file/BaseFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/file/BaseFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/file/ExportFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/file/ExportFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/file/ImportFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/file/ImportFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/model/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/model/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/model/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/model/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practices/practice13/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practices/practice13/utils/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +52,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -156,7 +116,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "AliJamali",
+    "git-widget-placeholder": "Rebasing AliJamali",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "E:/my-java-projects-1402/mapsa",
     "node.js.detected.package.eslint": "true",

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.48">
+    <root id="1">
+      <IntrospectionLevel>3</IntrospectionLevel>
+      <ServerVersion>11.2.0.2.0</ServerVersion>
+      <TablespacesHash>25866315842</TablespacesHash>
+    </root>
+    <schema id="2" parent="1" name="ALI">
+      <Current>1</Current>
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <tablespace id="16" parent="1" name="SYSTEM">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="17" parent="1" name="SYSAUX">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="18" parent="1" name="UNDOTBS1">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>U</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="19" parent="1" name="TEMP">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>T</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>0</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="20" parent="1" name="USERS">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <user id="21" parent="1" name="ALI">
+      <ObjectId>48</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="22" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="23" parent="1" name="APEX_040000">
+      <Locked>1</Locked>
+      <ObjectId>47</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="24" parent="1" name="APEX_PUBLIC_USER">
+      <Locked>1</Locked>
+      <ObjectId>45</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="25" parent="1" name="CTXSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>32</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="26" parent="1" name="FLOWS_FILES">
+      <Locked>1</Locked>
+      <ObjectId>44</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="27" parent="1" name="HR">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>43</ObjectId>
+      <DefaultTablespaceName>USERS</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="28" parent="1" name="MDSYS">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>42</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="29" parent="1" name="OUTLN">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>9</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="30" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="31" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="32" parent="1" name="XDB">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>34</ObjectId>
+      <DefaultTablespaceName>SYSAUX</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="33" parent="1" name="XS$NULL">
+      <Expired>1</Expired>
+      <Locked>1</Locked>
+      <ObjectId>2147483638</ObjectId>
+      <DefaultTablespaceName>SYSTEM</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <data-file id="34" parent="16" name="C:\ORACLEXE\APP\ORACLE\ORADATA\XE\SYSTEM.DBF">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>1</FileId>
+      <FileSize>46080</FileSize>
+      <IncrementBy>1280</IncrementBy>
+      <MaxSize>76800</MaxSize>
+      <OnlineStatus>S</OnlineStatus>
+      <Position>1</Position>
+      <UserSize>45952</UserSize>
+    </data-file>
+    <data-file id="35" parent="17" name="C:\ORACLEXE\APP\ORACLE\ORADATA\XE\UNDOTBS1.DBF">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>2</FileId>
+      <FileSize>84480</FileSize>
+      <IncrementBy>1280</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>2</Position>
+      <UserSize>84352</UserSize>
+    </data-file>
+    <data-file id="36" parent="18" name="C:\ORACLEXE\APP\ORACLE\ORADATA\XE\SYSAUX.DBF">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>3</FileId>
+      <FileSize>3200</FileSize>
+      <IncrementBy>640</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>3</Position>
+      <UserSize>3072</UserSize>
+    </data-file>
+    <data-file id="37" parent="19" name="C:\ORACLEXE\APP\ORACLE\ORADATA\XE\TEMP.DBF">
+      <AutoExtensible>1</AutoExtensible>
+      <FileId>1</FileId>
+      <FileSize>2560</FileSize>
+      <IncrementBy>80</IncrementBy>
+      <MaxSize>4194302</MaxSize>
+      <Position>1</Position>
+      <UserSize>2432</UserSize>
+    </data-file>
+    <data-file id="38" parent="20" name="C:\ORACLEXE\APP\ORACLE\ORADATA\XE\USERS.DBF">
+      <AutoExtensible>1</AutoExtensible>
+      <AvailabilityStatus>A</AvailabilityStatus>
+      <FileId>4</FileId>
+      <FileSize>12800</FileSize>
+      <IncrementBy>1280</IncrementBy>
+      <MaxSize>1441792</MaxSize>
+      <OnlineStatus>E</OnlineStatus>
+      <Position>4</Position>
+      <UserSize>12672</UserSize>
+    </data-file>
+  </database-model>
+</dataSource>
