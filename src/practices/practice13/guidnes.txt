@@ -1,7 +1,0 @@
-Implement the Seat and Theater classes using proper Java OOP principles, such as encapsulation and method design.
-Use appropriate data structures, like arrays or lists, to manage the collection of seats in the theater.
-Apply generics to make your code more flexible and reusable.
-Handle exceptions gracefully by providing meaningful error messages to the user.
-Use file reading and writing techniques to import and export the theater's seating arrangement from/to files.
-Design a user-friendly command-line interface that guides users through various operations.
-

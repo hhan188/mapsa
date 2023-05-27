@@ -4,12 +4,10 @@ import com.google.gson.Gson;
 
 public class Seat {
 
-//    Seat Class: Create a Seat class that represents an individual seat in the theater.
-//    It should have attributes such as seat number, row, and availability status.
-private Integer seatNumber;
-private Integer  row;
-private Integer  column;
-private Boolean availability;
+    private Integer seatNumber;
+    private Integer row;
+    private Integer column;
+    private Boolean availability;
 
     public Seat() {
     }
@@ -55,6 +53,6 @@ private Boolean availability;
 
     @Override
     public String toString() {
-       return new Gson().toJson(this);
+        return new Gson().toJson(this);
     }
 }
