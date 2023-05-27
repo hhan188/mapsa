@@ -10,9 +10,9 @@ public class Utils {
         switch (roles) {
             case "abb": {
                 List<String> abbList = new ArrayList<>();
-                for (int i = 0; i < states.size(); i++) {
-                    if (states.get(i).length() == 2) {
-                        abbList.add(states.get(i));
+                for (String state : states) {
+                    if (state.length() == 2) {
+                        abbList.add(state);
                     }
 
                 }
@@ -21,9 +21,9 @@ public class Utils {
             }
             case "full": {
                 List<String> fullList = new ArrayList<>();
-                for (int i = 0; i < states.size(); i++) {
-                    if (states.get(i).length() != 2) {
-                        fullList.add(states.get(i));
+                for (String state : states) {
+                    if (state.length() != 2) {
+                        fullList.add(state);
                     }
 
                 }
