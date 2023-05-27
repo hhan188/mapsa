@@ -6,7 +6,7 @@ public class ComplexNumber {
 
     public ComplexNumber(double real, double imaginary) {
         this.real = real;
-        this.imaginary = imaginary;
+//        this.imaginary = imaginary;
     }
 
     public double getReal() {

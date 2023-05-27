@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Eight/Eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/ImmuTable/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/MobilePhone/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/MobilePhone/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/MobilePhone/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Nine/AdventureGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Seven/Seven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Six/Six.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/Third/Third.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/TowenyFour/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/TowenyFour/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/TowenyFour/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice10/Eight/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice10/Eight/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice7.zip" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,12 +48,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ehsan/workspace/mapsa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Six">
+    <configuration name="Six" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice14.Six.Six" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice14.Six.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tamrin1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tamrin1" />
+      <module name="mapsa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tamrin1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
