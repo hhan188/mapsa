@@ -2,10 +2,7 @@ package Practice17;
 
 import Practice17.Product;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 class Warehouse {
@@ -70,6 +67,15 @@ class Warehouse {
         this.products = products;
     }
 
+    @Override
+    public String toString() {
+        return "Warehouse{" +
+                "id=" + id +
+                ", location='" + location + '\'' +
+                ", products=" + products +
+                '}';
+    }
+
     public static void main(String[] args) {
         /////Practice 2
         System.out.println("Practice 2/////////////////////////////////////////////////////////////////////////");
@@ -98,12 +104,39 @@ class Warehouse {
         var anyWarehouseMoreThanTenProduct=allWarehouses.stream()
                 .collect(Collectors.toMap(Warehouse::getLocation,item->item.getProducts().size()>=10));
         System.out.println(anyWarehouseMoreThanTenProduct);
+        System.out.println("Practice12///////////////////////////////////////////////////////////////////");
         var warehouseWithTheHighestPricedProduct =allWarehouses.stream()
-                .collect(Collectors.toMap(Warehouse::getLocation,item->item.getProducts()
-                        .stream()
-                        .mapToDouble(Product::getPrice).sum()))
-                ;
+                .max(Comparator.comparing(warehouse -> warehouse.getProducts()
+                        .stream().mapToDouble(Product::getPrice).max()
+                        .orElse(0))).orElseThrow(()->new RuntimeException("not found"));
         System.out.println(warehouseWithTheHighestPricedProduct);
+        System.out.println("Practice 13//////////////////////////////////////////////////////////////////");
+        var warehousesHaveAtLeastOneProductInStock = allWarehouses.stream()
+                        .collect(Collectors.toMap(Warehouse::getId,warehouse -> warehouse.getProducts().size()>0));
+        System.out.println(warehousesHaveAtLeastOneProductInStock);
+        System.out.println("Practice 15/////////////////////////////////////////////////////////////////");
+        Map<Integer,Integer> theNumberOfProductsInEachWarehouse=allWarehouses.stream()
+                .collect(Collectors.toMap(Warehouse::getId,warehouse -> warehouse.getProducts().size()));
+        System.out.println(theNumberOfProductsInEachWarehouse);
+        System.out.println("Practice 16 /////////////////////////////////////////////////////////////////");
+        int theWarehouseWithTheLargestNumberOfProducts = allWarehouses.stream()
+                .max(Comparator.comparing(warehouse -> warehouse.getProducts().size())).map(Warehouse::getId).get();
+        System.out.println("theWarehouseWithTheLargestNumberOfProducts is warehouse "+theWarehouseWithTheLargestNumberOfProducts);
+        System.out.println("Practice 17//////////////////////////////////////////////////////////////////");
+        var checkIfAnyWarehouseHasOnlyOneProduct=allWarehouses.stream()
+                        .filter(warehouse -> warehouse.getProducts().size()==1).map(Warehouse::getId).collect(Collectors.toList());
+        System.out.println("Warehouse with only one product is warehouse "+checkIfAnyWarehouseHasOnlyOneProduct);
+        System.out.println("Practice 18 //////////////////////////////////////////////////////////////////");
+        List<String> theProductWithTheLowestPriceInWarehouseA=allWarehouses.stream()
+                .filter(warehouse -> warehouse.getId()==1)
+                .flatMap(warehouse -> warehouse.getProducts()
+                        .stream()
+                        .min(Comparator.comparing(Product::getPrice))
+                        .stream()
+                        .map(Product::getName)).collect(Collectors.toList());
+        System.out.println(theProductWithTheLowestPriceInWarehouseA);
+
+
 
         }
 

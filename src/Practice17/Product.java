@@ -126,13 +126,28 @@ public class Product {
         System.out.println("Practice 10/////////////////////////////////////////////////////////");
         var cheapestProductInTheElectronicsCategory = products.stream()
                 .filter(item->item.getCategory()==Category.ELECTRONICS)
-                .min(Comparator.comparing(Product::getPrice));
+                .min(Comparator.comparing(Product::getPrice)).get();
         System.out.println(cheapestProductInTheElectronicsCategory);
         System.out.println("Practice 11 /////////////////////////////////////////////////////////");
         var  averagePriceOfAllProductsInStock = products.stream()
                 .filter(item-> item.isInStock())
                 .mapToDouble(Product::getPrice).average().getAsDouble();
         System.out.println(averagePriceOfAllProductsInStock);
+        System.out.println("Practice14///////////////////////////////////////////////////////////");
+
+        List<String>theProductsWithNamesContainingTheletterA = products.stream()
+                .filter(product -> product.getName().contains("a")).map(Product::getName).collect(Collectors.toList());
+        System.out.println(theProductsWithNamesContainingTheletterA);
+        System.out.println("Practice 19 /////////////////////////////////////////////////////////");
+        var sortTheProductsByTheirPricesInDescendingOrder = products.stream()
+                .sorted(Comparator.comparingDouble(Product::getPrice).reversed()).map(Product::getName).collect(Collectors.toList());
+
+        System.out.println("Sort the products by their prices in descending order "+sortTheProductsByTheirPricesInDescendingOrder);
+        System.out.println("Practice 20////////////////////////////////////////////////////////////");
+        List<String> findTheNamesOfAllProductsInStock = products.stream()
+                .filter(product -> product.isInStock())
+                .map(Product::getName).collect(Collectors.toList());
+        System.out.println(findTheNamesOfAllProductsInStock);
     }
 
 }
