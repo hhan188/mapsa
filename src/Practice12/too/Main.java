@@ -8,7 +8,7 @@ public class Main {
 
         try (BufferedReader reader= new BufferedReader(new FileReader("Practice12_2.csv"))) {
             String line= reader.readLine();
-            String s="";
+            String s=" ";
             while (line !=null){
                 System.out.println(line);
                 line=reader.readLine();

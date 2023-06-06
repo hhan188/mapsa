@@ -2,7 +2,6 @@ package Practice11.seven;
 
 import java.io.*;
 
-import static com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.close;
 
 public class Main {
     public static void main(String[] args) {
