@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice 12 added">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice 17 added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice17/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice17/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice17/Warehouse.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685355473530</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="practice 17 added">
+      <created>1685955723550</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685955723550</updated>
+    </task>
+    <task id="LOCAL-00033" summary="practice 17 added">
+      <created>1685955757881</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685955757881</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +319,7 @@
     <MESSAGE value="practice 11" />
     <MESSAGE value="practice 9" />
     <MESSAGE value="practice 12 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 12 added" />
+    <MESSAGE value="practice 17 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice 17 added" />
   </component>
 </project>
