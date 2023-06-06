@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project1/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project1/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project1/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project2/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project2/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project2/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project3/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prac8/Project3/Patron.java" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 14 va 17 Reza Fazeli">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +20,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sajjadEmami" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,9 +133,32 @@
       <workItem from="1681976904318" duration="1351000" />
       <workItem from="1681978278090" duration="3905000" />
     </task>
+    <task id="LOCAL-00001" summary="Tamrin 14 va 17 Reza Fazeli">
+      <created>1686052520987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686052520987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tamrin 14 va 17 Reza Fazeli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 14 va 17 Reza Fazeli" />
   </component>
 </project>
