@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class Warehouse {
     private int id;
@@ -58,10 +59,7 @@ public class Warehouse {
     }
 
 
-    @Override
-    public String toString() {
-        return new Gson().toJson(this);
-    }
+
 
     private static List<Warehouse> allWarehouses = new ArrayList<>(Arrays.asList(
             new Warehouse(1, "Warehouse A", Arrays.asList(
@@ -88,8 +86,22 @@ public class Warehouse {
             ))
     ));
 
-    public static void main(String[] args) {
-        System.out.println(allWarehouses);
+            // hashCode and equals and toString
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Warehouse warehouse)) return false;
+        return Objects.equals(getLocation(), warehouse.getLocation());
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getLocation());
+    }
+    @Override
+    public String toString() {
+        return new Gson().toJson(this);
+    }
 }

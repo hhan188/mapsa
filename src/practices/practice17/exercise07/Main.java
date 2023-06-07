@@ -1,25 +1,36 @@
 package practices.practice17.exercise07;
 
 
+import practices.practice17.Product;
 import practices.practice17.Warehouse;
 
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
 
-//7 Find the most expensive product in each warehouse.
+        //7 Find the most expensive product in each warehouse.
 
-        System.out.println(Warehouse.getAllWarehouses().get(0).getProducts());
-//        System.out.println(Warehouse.getAllWarehouses().get(1));
-//        System.out.println(Warehouse.getAllWarehouses().get(2));
-        Warehouse.getAllWarehouses()
+
+        Map<String, List<Product>> expensiveWarehouses = Warehouse.getAllWarehouses()
                 .stream()
-//                .filter(warehouse -> warehouse.getProducts().stream().filter(product -> product.getPrice()).m)
-                .map(Warehouse::getProducts)
-                .collect(Collectors.toList());
+                .collect(Collectors.toMap(Warehouse::getLocation
+                        , item -> item.getProducts().stream().max(Comparator.comparingDouble(Product::getPrice))
+                                .stream()
+                                .sorted()
+                                .collect(Collectors.toList())));
 
+
+        expensiveWarehouses.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey())
+                .forEach(System.out::println);
 
 
     }
+
+
 }
+
