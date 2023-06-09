@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="P13">
+      <change afterPath="$PROJECT_DIR$/src/Practice10/Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice10/SumCalculator/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice10/SumCalculator/Using.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AbstractClass/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AbstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AbstractClass/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AbstractClass/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AbstractClass/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AdventureGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/AdventureGame/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/ImmiutableClass/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/MinimumElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/PlayList/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/PlayList/PlayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/PlayList/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/PlayList/SongList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice14/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice17/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice17/P17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice17/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice17/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecipeOrganizer/Main/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecipeOrganizer/Main/RecipeOrganizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecipeOrganizer/Main/UserCommandLineInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecipeOrganizer/RecipeOrganizerFile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecipeOrganizer/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +63,95 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "MohammadBalinparast2",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/WorkSpaceJava/Class hall tamrin/mapsa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Start">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice14.AbstractClass.Main" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice14.AbstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice17.P17" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice17.Product" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecipeOrganizer.Start" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecipeOrganizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCommandLineInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecipeOrganizer.Main.UserCommandLineInterface" />
+      <module name="mapsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecipeOrganizer.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.P17" />
+        <item itemvalue="Application.Product" />
+        <item itemvalue="Application.UserCommandLineInterface" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,7 +160,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678441650971</updated>
+      <workItem from="1682071849454" duration="10048000" />
+      <workItem from="1682196365508" duration="7819000" />
+      <workItem from="1682239202678" duration="4393000" />
+      <workItem from="1682520320940" duration="4566000" />
+      <workItem from="1682861802360" duration="1795000" />
+      <workItem from="1682959021516" duration="4466000" />
+      <workItem from="1683035288506" duration="2412000" />
+      <workItem from="1683103432628" duration="4698000" />
+      <workItem from="1683282971415" duration="14498000" />
+      <workItem from="1683361974440" duration="96000" />
+      <workItem from="1683362097972" duration="448000" />
+      <workItem from="1683381482440" duration="1654000" />
+      <workItem from="1683456267531" duration="539000" />
+      <workItem from="1683467394120" duration="137000" />
+      <workItem from="1683476413407" duration="884000" />
+      <workItem from="1684496692798" duration="704000" />
+      <workItem from="1684591968547" duration="29000" />
+      <workItem from="1684676993191" duration="296000" />
+      <workItem from="1684677308818" duration="1537000" />
+      <workItem from="1684834992522" duration="3905000" />
+      <workItem from="1684849851127" duration="1520000" />
+      <workItem from="1684875840942" duration="10319000" />
+      <workItem from="1684939796150" duration="2560000" />
+      <workItem from="1685008044606" duration="18249000" />
+      <workItem from="1685106695735" duration="17922000" />
+      <workItem from="1685196011370" duration="2303000" />
+      <workItem from="1685199965015" duration="11456000" />
+      <workItem from="1685286051412" duration="91000" />
+      <workItem from="1685455428390" duration="2576000" />
+      <workItem from="1685712351177" duration="14328000" />
+      <workItem from="1685820755594" duration="7018000" />
+      <workItem from="1686058092409" duration="270000" />
+      <workItem from="1686245998180" duration="18426000" />
     </task>
+    <task id="LOCAL-00001" summary="P5">
+      <created>1682243316616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682243316616</updated>
+    </task>
+    <task id="LOCAL-00002" summary="P5">
+      <created>1683325377333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683325377333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="P13">
+      <created>1684496788810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684496788810</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="P5" />
+    <MESSAGE value="P13" />
+    <option name="LAST_COMMIT_MESSAGE" value="P13" />
   </component>
 </project>
