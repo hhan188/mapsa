@@ -1,0 +1,103 @@
+create table if not exists person(
+    id int auto_increment not null primary key ,
+    name varchar(50),
+    email varchar(50),
+    phone_number varchar(50),
+    age int,
+    gender varchar(50),
+    date_of_birth date,
+    occupation varchar(50),
+    education_level varchar(50),
+    marital_status varchar(50),
+    income decimal(10,2)
+
+
+);
+
+
+
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status,
+                    income)
+VALUES ('John Smith', 28, 'johnsmith@gmail.com', '555-123-4567', 'Male', '1993-02-14', 'Software Developer',
+        'Masters Degree', 'Single', 75000),
+       ('Emily Davis', 42, 'emilydavis@yahoo.com', '555-987-6543', 'Female', '1979-11-22', 'Marketing Manager',
+        'Bachelors Degree', 'Married', 90000),
+       ('Michael Lee', 31, 'michaellee@hotmail.com', '555-555-1212', 'Male', '1990-08-07', 'Sales Representative',
+        'Associates Degree', 'Single', 60000),
+       ('Sarah Johnson', 25, 'sarahjohnson@gmail.com', '555-111-2222', 'Female', '1996-04-01', 'Graphic Designer',
+        'Bachelors Degree', 'Single', 45000),
+       ('David Kim', 37, 'davidkim@yahoo.com', '555-222-3333', 'Male', '1984-12-15', 'Accountant', 'Masters Degree',
+        'Married', 85000),
+       ('Jessica Brown', 29, 'jessicabrown@hotmail.com', '555-4444', 'Female', '1992/06/23', 'Nurse Practitioner',
+        'Masters Degree', 'Single', 70000),
+       ('William Chen', 45, 'williamchen@gmail.com ', '555.123.4567 ', 'Male ', '1976.09.30 ', 'CEO ',
+        'Bachelors Degree ', 'Married ', 150000),
+       ('Ashley Wilson ', 27, 'ashleywilson@hotmail.com ', '(555) 123 - 4567 ', 'Female ', '1994-07-12 ', 'Teacher ',
+        'Bachelors Degree ', 'Single ', 40000),
+       ('Daniel Rodriguez ', 33, 'danielrodriguez@yahoo.com ', '555-987-6543 ', 'Male ', '1988-03-18 ', 'Lawyer ',
+        'Doctorate Degree', 'Married ', 120000),
+       ('Megan Thompson ', 24, 'meganthompson@gmail.com', '555.123.4567', 'Female', '1997.05.01', 'Web Developer',
+        'Associates Degree', 'Single', 55000),
+       ('Kevin Davis', 39, 'kevindavis@yahoo.com', '555-555-1212', 'Male', '1982-11-22', 'Project Manager',
+        'Masters Degree', 'Married', 100000),
+       ('Rachel Kim', 28, 'rachelkim@hotmail.com', '555-111-2222', 'Female', '1993/08/07', 'Software Engineer',
+        'Bachelors Degree', 'Single', 80000),
+       ('Brandon Lee', 32, 'brandonlee@gmail.com', '555.123.4567', 'Male', '1989.04.01', 'Marketing Specialist',
+        'Bachelors Degree', 'Married ', 70000),
+       ('Olivia Hernandez ', 26, 'oliviahernandez@hotmail.com ', '(555) 123 - 4567 ', 'Female ', '1995/03/18 ',
+        'Graphic Designer', 'Associates Degree', 'Single ', 45000),
+       ('Jacob Martinez ', 41, 'jacobmartinez@yahoo.com ', '+1 (555) 987 - 6543', 'Male ', '1980/07/12 ',
+        'Business Analyst', 'Masters Degree', 'Married ', 110000),
+       ('Avery Scott ', 29, 'averyscott@gmail.com ', '+1 (555) 123 - 4567 ', 'Female ', '1992/12/15 ', 'Data Analyst',
+        'Bachelors Degree', 'Single ', 65000),
+       ('Ethan Nguyen ', 45, 'etahn@gmail.com', '+1 (555) 458 - 4365', 'Male', '1976-11-22', 'IT Man', 'Masters Degree',
+        'Married', 13000);
+
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status,
+                    income)
+VALUES ('Alice Johnson', 35, 'alice@example.com', '123-456-7890', 'Female', '1988-05-10', 'Engineer',
+        'Bachelors Degree', 'Married', 50000);
+
+
+SELECT *
+FROM MAPSA.PERSON
+ORDER BY AGE ASC;
+
+
+select count(age), age
+from person
+group by age;
+
+
+select avg(age)
+from person;
+
+
+select * from person where age <= 40 and age >= 30;
+
+
+select id,name,age,gender from person where name like '%J%';
+
+
+update mapsa.person set age=35 where name='John';
+
+
+INSERT INTO post (title, content, person_id) VALUES ('My First Day at Work', 'Today was my first day at work and I am excited to be a part of this team!', 2);
+INSERT INTO post (title, content, person_id) VALUES ('Traveling to Paris', 'I am planning a trip to Paris next month. Any recommendations on places to visit?', 3);
+INSERT INTO post (title, content, person_id) VALUES ('New Recipe', 'I tried a new recipe today and it turned out amazing! Check out the recipe on my blog.', 4);
+INSERT INTO post (title, content, person_id) VALUES ('Fitness Journey', 'Starting my fitness journey today. Wish me luck!', 5);
+INSERT INTO post (title, content, person_id) VALUES ('Movie Review', 'Just watched the latest Marvel movie and it was epic! Highly recommend.', 6);
+INSERT INTO post (title, content, person_id) VALUES ('DIY Project', 'I just finished a DIY project for my home. Check out the before and after pictures on my Instagram.', 7);
+INSERT INTO post (title, content, person_id) VALUES ('Book Recommendation', 'Just finished reading "The Alchemist" by Paulo Coelho. It is a must-read!', 8);
+INSERT INTO post (title, content, person_id) VALUES ('New Job Opportunity', 'Excited to announce that I have accepted a new job offer. Looking forward to this new chapter in my career.', 9);
+INSERT INTO post (title, content, person_id) VALUES ('Pet Adoption', 'I adopted a new puppy today and he is the cutest thing ever! Meet him on my Snapchat.', 10);
+INSERT INTO post (title, content, person_id) VALUES ('Music Festival Experience', 'Just got back from Coachella and it was an unforgettable experience!', 11);
+INSERT INTO post (title, content, person_id) VALUES ('Product Review', 'I recently tried a new skincare product and it has done wonders for my skin. Check out my review on my blog.', 12);
+INSERT INTO post (title, content, person_id) VALUES ('Charity Event', 'Attended a charity event last night and it was heartwarming to see so many people come together for a good cause.', 13);
+INSERT INTO post (title, content, person_id) VALUES ('New Hobby', 'Started painting as a new hobby and I am loving it! Check out some of my artwork on my Instagram.', 14);
+INSERT INTO post (title, content, person_id) VALUES ('Traveling to Japan', 'Planning a trip to Japan next year. Any recommendations on places to visit?', 15);
+INSERT INTO post (title, content, person_id) VALUES ('Movie Marathon', 'Having a movie marathon this weekend. Any suggestions on what movies to watch?', 16);
+INSERT INTO post (title, content, person_id) VALUES ('New Restaurant Discovery', 'Tried a new restaurant last night and the food was amazing! Check out my review on Yelp.', 17);
+INSERT INTO post (title, content, person_id) VALUES ('Fitness Challenge', 'Challenging myself to run a half marathon in three months. Training starts today!', 18);
+INSERT INTO post (title, content, person_id) VALUES ('Book Club Meeting', 'Attended my first book club meeting yesterday and it was great discussing "The Great Gatsby" with other book lovers.', 19);
+INSERT INTO post (title, content, person_id) VALUES ('New Business Venture', 'Excited to announce that I am starting my own business. Stay tuned for updates!', 20);
