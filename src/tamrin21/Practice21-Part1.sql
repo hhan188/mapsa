@@ -1,0 +1,225 @@
+-- create database
+create database  practice21;
+use practice21;
+
+-- CREATE TABLE
+CREATE TABLE person (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    phone_number VARCHAR(15),
+    age INT,
+    gender VARCHAR(10),
+    date_of_birth DATE,
+    occupation VARCHAR(25),
+    education_level VARCHAR(25),
+    marital_status VARCHAR(15),
+    income INT
+);
+
+-- Fill person table with sample data
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES 
+('Alice Johnson', 30, 'john.doe@example.com', '123-456-7890', 'Female', '1988-05-10', 'Engineer', 'Bachelor\'s Degree', 'Married', 50000),
+('John Smith', 28, 'johnsmith@gmail.com', '555-123-4567', 'Male', '1993-02-14', 'Software Developer', 'Master\'s Degree', 'Single', 75000),
+('Emily Davis', 42, 'emilydavis@yahoo.com', '555-987-6543', 'Female', '1979-11-22', 'Marketing Manager', 'Bachelor\'s Degree', 'Married', 90000),
+('Michael Lee', 31, 'michaellee@hotmail.com', '555-555-1212','Male','1990-08-07','Sales Representative','Associate\'s Degree','Single',60000),
+('Sarah Johnson', 25,'sarahjohnson@gmail.com','555-111-2222','Female','1996-04-01','Graphic Designer','Bachelor\'s Degree','Single',45000),
+('David Kim' ,37,'davidkim@yahoo.com' ,'555-222-3333' ,'Male' ,'1984-12-15' ,'Accountant' ,'Master\'s Degree' ,'Married' ,85000),
+('Jessica Brown' ,29,'jessicabrown@hotmail.com' ,'555-4444' ,'Female' ,'1992/06/23' ,'Nurse Practitioner' ,'Master\'s Degree' ,'Single' ,70000),
+('William Chen' ,45,'williamchen@gmail.com ','555.123.4567 ','Male ','1976.09.30 ','CEO ','Bachelor\'s Degree ','Married',150000 ),
+('Ashley Wilson ',27,'ashleywilson@hotmail.com ','(555) 123-4567 ','Female ','1994-07-12 ','Teacher ','Bachelor\'s Degree ','Single',40000 ),
+('Daniel Rodriguez ',33,'danielrodriguez@yahoo.com ','555-987-6543 ','Male ','1988-03-18 ','Lawyer ','Doctorate Degree','Married',120000 ),
+('Megan Thompson ',24,'meganthompson@gmail.com' ,'555.123.4567' ,'Female' ,'1997.05.01' ,'Web Developer' ,'Associate\'s Degree' ,'Single',55000),
+('Kevin Davis', 39, 'kevindavis@yahoo.com', '555-555-1212', 'Male', '1982-11-22', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Rachel Kim', 28, 'rachelkim@hotmail.com','555-111-2222','Female','1993/08/07','Software Engineer','Bachelor\'s Degree','Single',80000),
+('Brandon Lee' ,32,'brandonlee@gmail.com' ,'555.123.4567' ,'Male' ,'1989.04.01' ,'Marketing Specialist' ,'Bachelor\'s Degree' ,'Married',70000 ),
+('Olivia Hernandez ',26,'oliviahernandez@hotmail.com ','(555)123-4567 ','Female ','1995/03/18 ','Graphic Designer','Associate\'s Degree','Single',45000 ),
+('Jacob Martinez ',41,'jacobmartinez@yahoo.com ' ,'+1(555)987-6543','Male ' ,'1980/07/12 ' ,'Business Analyst','Master\'s Degree' ,'Married',110000 ),
+('Avery Scott ',29,'averyscott@gmail.com ' ,'+1(555)123-4567 ','Female ' ,'1992/12/15 ' ,'Data Analyst' ,'Bachelor\'s Degree' ,'Single',65000 ),
+('Bob Smith', 28, 'bob@example.com', '234-567-8901', 'Male', '1995-02-15', 'Teacher', 'Master\'s Degree', 'Single', 35000),
+('Charlie Brown', 42, 'charlie@example.com', '345-678-9012', 'Male', '1981-09-03', 'Sales Manager', 'Bachelor\'s Degree', 'Divorced', 75000),
+('David Lee', 31, 'david@example.com', '456-789-0123', 'Male', '1990-11-25', 'Software Developer', 'Master\'s Degree', 'Single', 60000),
+('Emily Dao', 27, 'emily@example.com', '567-890-1234', 'Female', '1996-08-12', 'Graphic Designer', 'Bachelor\'s Degree', 'Married', 40000),
+('Frank Johnson', 45, 'frank@example.com', '678-901-2345', 'Male', '1978-04-19', 'Business Owner', 'Bachelor\'s Degree', 'Married', 120000),
+('Grace Lee', 29, 'grace@example.com', '789-012-3456', 'Female', '1994-01-08', 'Marketing Manager', 'Master\'s Degree', 'Single', 55000),
+('Henry Kim', 33, 'henry@example.com', '890-123-4567', 'Male', '1988-12-01', 'Accountant', 'Bachelor\'s Degree', 'Married', 45000),
+('Isabella Rodriguez', 25, 'isabella@example.com', '901-234-5678', 'Female', '1998-06-23', 'Lawyer', 'Doctorate Degree', 'Single', 80000),
+('Jack Thompson', 37, 'jack@example.com', '012-345-6789', 'Male', '1986-03-18', 'Project Manager', 'Master\'s Degree', 'Married', 65000),
+('Jack Thompson', 37, 'jack@example.com', '012-345-6789', 'Male', '1986-03-18', 'Project Manager', 'Master\'s Degree', 'Married', 65000),
+('Jacki Th', 15, 'jacki@example.com', '012-345-6789', 'Male', '2006-03-18', ' ', 'High School', 'Single', 650);
+
+-- Reconfigure database in Q14
+alter table person
+    add nationality varchar(30) after phone_number;
+
+-- Fill person table with sample data
+INSERT INTO person (name, age, email, phone_number, nationality, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES 
+('Ema Davis', 34, 'ema.davis@example.com', '555-555-1234', 'Australian', 'Female', '1989-10-22', 'Marketing Manager', 'Bachelor\'s Degree', 'Divorced', 80000),
+('William Lee', 42, 'william.lee@gmail.com', '555-555-5678', 'British', 'Male', '1981-07-02', 'Product Manager', 'Master\'s Degree', 'Married', 110000),
+('Sophia Hernandez', 25, 'sophia.hernandez@example.com', '555-123-7890', 'Mexican', 'Female', '1998-12-18', 'Graphic Designer', 'Associate\'s Degree', 'Single', 45000),
+('Michael Brown', 31, 'michael.brown@example.com', '555-555-1234', 'American', 'Male', '1990-06-12', 'Sales Manager', 'Bachelor\'s Degree', 'Married', 90000),
+('Elizabeth Martinez', 27, 'elizabeth.martinez@gmail.com', '555-123-4567', 'Mexican', 'Female', '1994-04-03', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('David Wilson', 38, 'david.wilson@example.com', '555-555-5678', 'American', 'Male', '1985-09-09', 'Accountant', 'Bachelor\'s Degree', 'Married', 80000),
+('Ava Anderson', 29, 'ava.anderson@example.com', '555-123-7890', 'Canadian', 'Female', '1992-11-25', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('James Taylor', 35, 'james.taylor@gmail.com', '555-555-1234', 'American', 'Male', '1988-08-31', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Mia Gonzalez', 26, 'mia.gonzalez@example.com', '555-123-4567', 'Mexican', 'Female', '1997-03-17', 'Data Analyst', 'Bachelor\'s Degree', 'Single', 50000),
+('Christopher Clark', 33, 'christopher.clark@example.com', '555-555-5678', 'British', 'Male', '1990-12-01', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Isabella Rodriguez', 23, 'isabella.rodriguez@gmail.com', '555-123-7890', 'Mexican', 'Female', '2000-05-29', 'Marketing Coordinator', 'Associate\'s Degree', 'Single', 40000),
+('Daniel Baker', 37, 'daniel.baker@example.com', '555-555-1234', 'American', 'Male', '1986-02-18', 'Product Owner', 'Master\'s Degree', 'Married', 120000),
+('Olivia Perez', 28, 'olivia.perez@example.com', '555-123-4567', 'Mexican', 'Female', '1993-09-08', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Matthew Turner', 39, 'matthew.turner@example.com', '555-555-5678', 'American', 'Male', '1984-06-23', 'Business Analyst', 'Bachelor\'s Degree', 'Married', 85000),
+('Sofia Flores', 24, 'sofia.flores@example.com', '555-123-7890', 'Mexican', 'Female', '1999-01-02', 'Graphic Designer', 'Bachelor\'s Degree', 'Single', 45000),
+('Andrew Scott', 32, 'andrew.scott@gmail.com', '555-555-1234', 'Australian', 'Male', '1989-11-15', 'Software Developer', 'Bachelor\'s Degree', 'Married', 90000),
+('Emma Ramirez', 31, 'emma.ramirez@example.com', '555-123-4567', 'Mexican', 'Female', '1992-08-07', 'Web Developer', 'Bachelor\'s Degree', 'Divorced', 70000),
+('Ryan Mitchell', 36, 'ryan.mitchell@gmail.com', '555-555-5678', 'American', 'Male', '1987-04-22', 'Product Manager', 'Master\'s Degree', 'Married', 110000),
+('Chloe Sanchez', 27, 'chloe.sanchez@example.com', '555-123-7890', 'Mexican', 'Female', '1994-02-12', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Nicholas King', 29, 'nicholas.king@example.com', '555-555-1234', 'American', 'Male', '1994-12-25', 'Data Scientist', 'Master\'s Degree', 'Single', 80000),
+('Victoria Torres', 26, 'victoria.torres@example.com', '555-123-4567', 'Mexican', 'Female', '1997-06-08', 'Digital Marketer', 'Bachelor\'s Degree', 'Single', 50000),
+('Kevin Baker', 39, 'kevin.baker@example.com', '555-555-5678', 'American', 'Male', '1984-12-12', 'IT Manager', 'Master\'s Degree', 'Married', 120000),
+('Natalie Flores', 28, 'natalie.flores@example.com', '555-123-7890', 'Mexican', 'Female', '1993-05-01', 'Graphic Designer', 'Associate\'s Degree', 'Single', 40000),
+('Brandon Hernandez', 31, 'brandon.hernandez@example.com', '555-555-1234', 'Mexican', 'Male', '1990-08-17', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Ella Wood', 24, 'ella.wood@example.com', '555-123-4567', 'British', 'Female', '1999-09-30', 'Front-End Developer', 'Bachelor\'s Degree', 'Single', 50000),
+('Justin Powell', 34, 'justin.powell@example.com', '555-555-5678', 'American', 'Male', '1989-02-05', 'Business Analyst', 'Bachelor\'s Degree', 'Married', 90000),
+('Avery Gomez', 25, 'avery.gomez@example.com', '555-123-7890', 'Mexican', 'Female', '1998-01-15', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Benjamin Wright', 40, 'benjamin.wright@example.com', '555-555-1234', 'American', 'Male', '1983-12-28', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Grace Diaz', 29, 'grace.diaz@example.com', '555-123-4567', 'Mexican', 'Female', '1994-11-18', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('Tyler Clark', 32, 'tyler.clark@example.com', '555-555-5678', 'American', 'Male', '1991-06-11', 'Software Developer', 'Bachelor\'s Degree', 'Married', 85000),
+('Luna Alvarez', 23, 'luna.alvarez@example.com', '555-123-7890', 'Mexican', 'Female', '2000-08-03', 'Marketing Coordinator', 'Associate\'s Degree', 'Single', 40000),
+('Jacob Hill', 35, 'jacob.hill@example.com', '555-555-1234', 'American', 'Male', '1988-03-22', 'Product Owner', 'Master\'s Degree', 'Married', 110000),
+('Aaliyah Ramirez', 30, 'aaliyah.ramirez@example.com', '555-123-4567', 'Mexican', 'Female', '1993-10-05', 'Digital Marketer', 'Bachelor\'s Degree', 'Married', 75000),
+('Ethan Cooper', 33, 'ethan.cooper@example.com', '555-555-5678', 'American', 'Male', '1990-10-05', 'Digital Marketer', 'Bachelor\'s Degree', 'Married', 75000);
+
+-- Fill person table with sample data
+INSERT INTO person (name, age, email, phone_number, nationality, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES 
+('Sophie Walker', 27, 'sophie.walker@example.com', '555-123-4567', 'British', 'Female', '1996-08-02', 'Consultant', 'Master\'s Degree', 'Single', 65000),
+('Jason Mitchell', 31, 'jason.mitchell@example.com', '555-555-5678', 'American', 'Male', '1992-12-05', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 90000),
+('Mila Torres', 26, 'mila.torres@example.com', '555-123-7890', 'Mexican', 'Female', '1997-02-21', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Adam Wright', 33, 'adam.wright@example.com', '555-555-1234', 'American', 'Male', '1990-11-08', 'Business Analyst', 'Bachelor\'s Degree', 'Married', 85000),
+('Gabriela Flores', 25, 'gabriela.flores@example.com', '555-123-4567', 'Mexican', 'Female', '1998-07-03', 'Marketing Coordinator', 'Associate\'s Degree', 'Single', 40000),
+('Richard Baker', 38, 'richard.baker@example.com', '555-555-5678', 'American', 'Male', '1985-04-29', 'IT Manager', 'Master\'s Degree', 'Married', 120000),
+('Abigail Hernandez', 29, 'abigail.hernandez@example.com', '555-123-7890', 'Mexican', 'Female', '1994-09-17', 'Graphic Designer', 'Bachelor\'s Degree', 'Single', 45000),
+('Charles Davis', 35, 'charles.davis@example.com', '555-555-1234', 'American', 'Male', '1988-05-12', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Emma Wilson', 28, 'emma.wilson@example.com', '555-123-4567', 'British', 'Female', '1995-03-08', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('Matthew Garcia', 31, 'matthew.garcia@example.com', '555-555-5678', 'Mexican', 'Male', '1990-01-30', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Sophia Johnson', 24, 'sophia.johnson@example.com', '555-123-7890', 'American', 'Female', '1999-11-19', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Ethan Lee', 35, 'ethan.lee@example.com', '555-555-1234', 'American', 'Male', '1988-08-14', 'Product Manager', 'Master\'s Degree', 'Married', 110000),
+('Avery Hernandez', 27, 'avery.hernandez@example.com', '555-123-4567', 'Mexican', 'Female', '1996-04-25', 'Data Analyst', 'Bachelor\'s Degree', 'Single', 50000),
+('Nicholas Garcia', 33, 'nicholas.garcia@example.com', '555-555-5678', 'Mexican', 'Male', '1990-09-02', 'Business Analyst', 'Bachelor\'s Degree', 'Married', 90000),
+('Ava Perez', 28, 'ava.perez@example.com', '555-123-7890', 'Mexican', 'Female', '1995-06-23', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('William Wright', 39, 'william.wright@example.com', '555-555-1234', 'British', 'Male', '1984-03-18', 'Product Owner', 'Master\'s Degree', 'Married', 120000),
+('Isabella Nelson', 25, 'isabella.nelson@example.com', '555-123-4567', 'American', 'Female', '1998-12-01', 'Marketing Coordinator', 'Associate\'s Degree', 'Single', 40000),
+('Andrew Perez', 32, 'andrew.perez@example.com', '555-555-5678','Mexican', 'Male', '1991-07-15', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Olivia Taylor', 27, 'olivia.taylor@example.com', '555-123-7890', 'British', 'Female', '1996-01-12', 'UX Designer', 'Bachelor\'s Degree', 'Single', 55000),
+('Jacob Hernandez', 34, 'jacob.hernandez@example.com', '555-555-1234', 'Mexican', 'Male', '1989-08-23', 'IT Manager', 'Master\'s Degree', 'Married', 110000),
+('Emily Martinez', 26, 'emily.martinez@example.com', '555-123-4567', 'Mexican', 'Female', '1997-12-04', 'Graphic Designer', 'Bachelor\'s Degree', 'Single', 45000),
+('Michael Davis', 37, 'michael.davis@example.com', '555-555-5678', 'American', 'Male', '1986-06-07', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Sofia Hernandez', 30, 'sofia.hernandez@example.com', '555-123-7890', 'Mexican', 'Female', '1993-05-29', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('Christopher Wilson', 33, 'christopher.wilson@example.com', '555-555-1234', 'American', 'Male', '1990-02-18', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Chloe Rodriguez', 23, 'chloe.rodriguez@example.com', '555-123-4567', 'Mexican', 'Female', '2000-09-09', 'Data Analyst', 'Bachelor\'s Degree', 'Single', 50000),
+('David Lee', 36, 'david.lee@example.com', '555-555-5678', 'American', 'Male', '1987-11-03', 'Product Manager', 'Master\'s Degree', 'Married', 110000),
+('Evelyn Hernandez', 29, 'evelyn.hernandez@example.com', '555-123-7890', 'Mexican', 'Female', '1994-03-26', 'Business Analyst', 'Bachelor\'s Degree', 'Single', 55000),
+('Ryan Perez', 32, 'ryan.perez@example.com', '555-555-1234', 'Mexican', 'Male', '1991-10-20', 'UX Designer', 'Bachelor\'s Degree', 'Married', 90000),
+('Avery Thompson', 25, 'avery.thompson@example.com', '555-123-4567', 'American', 'Female', '1998-08-15', 'Web Developer', 'Bachelor\'s Degree', 'Single', 60000),
+('Brandon Hernandez', 34, 'brandon.hernandez@example.com', '555-555-5678', 'Mexican', 'Male', '1989-02-25', 'IT Manager', 'Master\'s Degree', 'Married', 120000),
+('Madison Martinez', 27, 'madison.martinez@example.com', '555-123-7890', 'Mexican', 'Female', '1996-02-05', 'Graphic Designer', 'Bachelor\'s Degree', 'Single', 45000),
+('Jonathan Garcia', 36, 'jonathan.garcia@example.com', '555-555-1234', 'Mexican', 'Male', '1987-09-28', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Victoria Hernandez', 28, 'victoria.hernandez@example.com', '555-123-4567', 'Mexican', 'Female', '1995-07-12', 'Product Owner', 'Master\'s Degree', 'Single', 120000),
+('Ashley Davis', 24, 'ashley.davis@example.com', '555-555-5678', 'American', 'Female', '1999-04-16', 'Marketing Coordinator', 'Associate\'s Degree', 'Single', 40000),
+('Daniel Rodriguez', 33, 'daniel.rodriguez@example.com', '555-123-7890', 'Mexican', 'Male', '1990-12-07', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000),
+('Lily Thompson', 33, 'lily.thompson@example.com', '555-555-1234', 'American', 'Female', '1990-12-08', 'Software Engineer', 'Bachelor\'s Degree', 'Married', 95000);
+
+-- Fill person table with sample data
+INSERT INTO person (name, age, email, phone_number, nationality, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES 
+('Sophie Walker', 27, 'sophie.walker@example.com', '555-123-4567', 'British', 'Female', '1996-08-02', 'Consultant', 'Master\'s Degree', 'Single', 65000),
+('James Smith', 35, 'james.smith@example.com', '555-555-5678', 'American', 'Male', '1988-03-15', 'Engineer', 'Bachelor\'s Degree', 'Married', 90000),
+('Emma Johnson', 29, 'emma.johnson@example.com', '555-123-7890', 'Australian', 'Female', '1994-12-18', 'Marketing Manager', 'Master\'s Degree', 'Single', 75000),
+('Michael Brown', 42, 'michael.brown@example.com', '555-555-1234', 'Canadian', 'Male', '1979-07-22', 'Sales Director', 'Bachelor\'s Degree', 'Married', 110000),
+('Olivia Davis', 31, 'olivia.davis@example.com', '555-123-4567', 'New Zealander', 'Female', '1990-02-28', 'Accountant', 'Bachelor\'s Degree', 'Single', 60000),
+('William Lee', 26, 'william.lee@example.com', '555-555-5678', 'Singaporean', 'Male', '1997-09-11', 'Software Developer', 'Bachelor\'s Degree', 'Single', 80000),
+('Sophia Garcia', 38, 'sophia.garcia@example.com', '555-123-7890', 'Mexican', 'Female', '1985-04-29', 'Human Resources Manager', 'Master\'s Degree', 'Divorced', 95000),
+('Ethan Wilson', 33, 'ethan.wilson@example.com', '555-555-1234', 'Irish', 'Male', '1990-11-08', 'Project Manager', 'Master\'s Degree', 'Married', 100000),
+('Isabella Martinez', 24, 'isabella.martinez@example.com', '555-123-4567', 'Colombian', 'Female', '1999-05-20', 'Graphic Designer', 'Bachelor\'s Degree', 'Single', 50000),
+('Daniel Taylor', 30, 'daniel.taylor@example.com', '555-555-5678', 'British', 'Male', '1993-12-24', 'Product Manager', 'Master\'s Degree', 'Married', 85000);
+
+-- CREATE TABLE
+CREATE TABLE post (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(50),
+    content VARCHAR(100),
+    person_id INT,
+    FOREIGN KEY (person_id)
+        REFERENCES person (id)
+);
+
+-- Fill post table with sample data
+INSERT INTO post (title, content, person_id)
+VALUES 
+    ('Hello World!', 'This is my first post.', 1),
+    ('SQL Basics', 'Learn SQL with these simple tips.', 2),
+    ('Advanced SQL Techniques', 'Master SQL with these advanced tips.', 3),
+    ('My Favorite Books', 'Here are some of my favorite books.', 4),
+    ('Top Travel Destinations', 'Explore the world with these top destinations.', 5),
+    ('Healthy Eating Habits', 'Stay healthy with these eating habits.', 6),
+    ('My Favorite Movies', 'Here are some of my favorite movies.', 7),
+    ('Effective Time Management', 'Manage your time effectively with these tips.', 8),
+    ('Effective Communication Skills', 'Improve your communication skills with these tips.', 9),
+    ('My Favorite TV Shows', 'Here are some of my favorite TV shows.', 10),
+    ('Building Successful Teams', 'Create successful teams with these tips.', 11),
+    ('Leadership Strategies', 'Improve your leadership skills with these strategies.', 12),
+    ('My Favorite Music', 'Here are some of my favorite music artists.', 13),
+    ('Effective Project Management', 'Manage your projects effectively with these tips.', 14),
+    ('Effective Negotiation Skills', 'Improve your negotiation skills with these tips.', 15),
+    ('My Favorite Sports', 'Here are some of my favorite sports.', 16),
+    ('Effective Marketing Strategies', 'Improve your marketing skills with these strategies.', 17),
+    ('Effective Sales Techniques', 'Improve your sales techniques with these tips.', 18),
+    ('My Favorite Video Games', 'Here are some of my favorite video games.', 19),
+    ('Effective Customer Service', 'Improve your customer service skills with these tips.', 20),
+    ('Effective Problem Solving', 'Improve your problem-solving skills with these tips.', 21),
+    ('My Favorite Hobbies', 'Here are some of my favorite hobbies.', 22),
+    ('Effective Public Speaking', 'Improve your public speaking skills with these tips.', 23),
+    ('Effective Writing Skills', 'Improve your writing skills with these tips.', 24),
+    ('My Favorite Foods', 'Here are some of my favorite foods.', 25);
+
+-- Fill post table with sample data
+INSERT INTO post (title, content, person_id)
+VALUES 
+    ('My Second Post', 'This is my second post.', 1),
+    ('Advanced SQL Concepts', 'Take your SQL skills to the next level.', 3),
+    ('Travel Tips', 'Maximize your travel experience with these tips.', 5),
+    ('Healthy Snack Ideas', 'Stay nourished with these healthy snack ideas.', 6),
+    ('My Second Movie Post', 'Here are some more of my favorite movies.', 7),
+    ('Productivity Hacks', 'Boost your productivity with these hacks.', 8),
+    ('Effective Team Communication', 'Improve team communication with these tips.', 11),
+    ('Leadership Best Practices', 'Implement best practices for leadership success.', 12),
+    ('My Second Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Effective Time Tracking', 'Track your time effectively with these tips.', 14),
+    ('Advanced Negotiation Techniques', 'Take your negotiation skills to the next level.', 15),
+    ('My Second Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Advanced Marketing Strategies', 'Take your marketing skills to the next level.', 17),
+    ('Advanced Sales Techniques', 'Take your sales techniques to the next level.', 18),
+    ('My Second Video Game Post', 'Here are some more of my favorite video games.', 19),
+    ('Advanced Customer Service', 'Take your customer service skills to the next level.', 20),
+    ('Problem-Solving Frameworks', 'Use frameworks to improve your problem-solving skills.', 21),
+    ('My Second Hobbies Post', 'Here are some more of my favorite hobbies.', 22),
+    ('Public Speaking Mastery', 'Master the art of public speaking with these tips.', 23),
+    ('Effective Writing Habits', 'Develop effective writing habits with these tips.', 24),
+    ('My Second Food Post', 'Here are some more of my favorite foods.', 25),
+    ('My Third Post', 'This is my third post.', 1),
+    ('My Forth Post', 'This is my Forth post.', 1),
+    ('SQL Optimization Techniques', 'Optimize your SQL queries with these techniques.', 3),
+    ('Offbeat Travel Destinations', 'Explore unique and offbeat travel destinations.', 5),
+    ('Healthy Meal Prep Ideas', 'Stay healthy with these meal prep ideas.', 6),
+    ('My Third Movie Post','Here are some more of my favorite movies.', 7),
+    ('Time Management Tools', 'Use tools to improve your time management skills.', 8),
+    ('Effective Conflict Resolution', 'Resolve conflicts effectively with these tips.', 11),
+    ('Effective Delegation', 'Delegate tasks effectively with these tips.', 12),
+    ('My Third Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Project Management Best Practices', 'Implement best practices for project management success.', 14),
+    ('Advanced Sales Negotiation', 'Take your sales negotiation skills to the next level.', 15),
+    ('My Third Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Social Media Marketing Strategies', 'Maximize your social media marketing with these strategies.', 17),
+    ('Customer Relationship Management', 'Improve customer relationships with effective CRM strategies.', 20),
+    ('My Third Hobbies Post', 'Here are some more of my favorite hobbies.', 22),
+    ('Public Speaking Tips for Introverts', 'Master public speaking as an introvert with these tips.', 23),
+    ('Effective Business Writing', 'Improve your business writing skills with these tips.', 24),
+    ('My Third Food Post', 'Here are some more of my favorite foods.', 25);
