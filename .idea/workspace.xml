@@ -4,17 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 8 - Bakhsh Avval - Store Project">
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 14 - Naghes">
+      <change afterPath="$PROJECT_DIR$/src/com/Practice17/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Practice17/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Practice17/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Practice17/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tamrin8/firstPart/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin0/Tamrin0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin0/Tamrin0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin1/Tamrin1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin1/Tamrin1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin10/Tamrin10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin10/Tamrin10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin11/T11" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin11/T11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin11/Tamrin11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin11/Tamrin11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin12/T12" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin12/T12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin12/Tamrin12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin12/Tamrin12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin13/Tamrin13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin13/Tamrin13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin2/Tamrin2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin2/Tamrin2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin3/T3" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin3/T3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin3/Tamrin3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin3/Tamrin3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin4/T4" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin4/T4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin4/Tamrin4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin4/Tamrin4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin5/GradeOutOfRangeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin5/GradeOutOfRangeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin5/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin5/Tamrin5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin5/Tamrin5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin6/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin6/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin6/SeatAlreadyBookedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin6/SeatAlreadyBookedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin7/Tamrin7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin7/Tamrin7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin8/Tamrin8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin8/Tamrin8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practise11/Tamrin9/Tamrin9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice11/Tamrin9/Tamrin9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,21 +61,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Mapsa/mapsa/src/com/tamrin8/firstPart/store&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;RaminPirnia&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Mapsa/mapsa/src/com&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com" />
+      <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin8\secondPart\bank" />
       <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin8\firstPart\store" />
       <recent name="C:\Users\User\IdeaProjects\Mapsa\mapsa\src\com\tamrin7" />
     </key>
@@ -87,31 +123,52 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
       <updated>1682316291429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎−۰۰۰۰۵" summary="Practice 8 - Bakhsh Dovvom - Bank Project">
+      <created>1682487277160</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
+      <updated>1682487277160</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۶" summary="Practice 11">
+      <created>1683736538811</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
+      <updated>1683736538811</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۷" summary="Practice 9 Without Generics Practice">
+      <created>1683819602438</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1683819602438</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۸" summary="Practice 10 Without Exercise 40">
+      <created>1683819987852</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1683819987852</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۹" summary="Practice 12">
+      <created>1683981387112</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
+      <updated>1683981387112</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۰" summary="Practice 13">
+      <created>1684486610513</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
+      <updated>1684486610513</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۱" summary="Practice 14 - Naghes">
+      <created>1685898137162</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
+      <updated>1685898137162</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/RaminPirnia" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -127,12 +184,35 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add tamrin5 to git" />
     <MESSAGE value="add tamrin7 to git" />
     <MESSAGE value="Practice 8 - Bakhsh Avval - Store Priject" />
     <MESSAGE value="Practice 8 - Bakhsh Avval - Store Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 8 - Bakhsh Avval - Store Project" />
+    <MESSAGE value="Practice 8 - Bakhsh Dovvom - Bank Project" />
+    <MESSAGE value="Practice 11" />
+    <MESSAGE value="Practice 9 Without Generics Practice" />
+    <MESSAGE value="Practice 10 Without Exercise 40" />
+    <MESSAGE value="Practice 12" />
+    <MESSAGE value="Practice 13" />
+    <MESSAGE value="Practice 14 - Naghes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 14 - Naghes" />
   </component>
 </project>
