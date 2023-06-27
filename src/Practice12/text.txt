@@ -1,7 +1,0 @@
-private hello
-goodbye
-private private private
-private
-private private
-hello private sam
-private private

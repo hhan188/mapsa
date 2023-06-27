@@ -1,0 +1,119 @@
+use mapsa;
+create table person(
+id int,
+name varchar(10),
+email varchar(50),
+phone_number varchar(20),
+age int,
+gender varchar(10),
+date_of_birth varchar(6),
+occupation varchar(10),
+education_level varchar(10),
+marital_status varchar (10),
+income int);
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES
+('John Smith', 35, 'john.smith@example.com', '555-1234', 'male', '1988-05-12', 'engineer', 'bachelor', 'married', 75000),
+('Alice Johnson', 27, 'alice.johnson@example.com', '555-5678', 'female', '1996-10-21', 'teacher', 'master', 'single', 50000),
+('Mark Williams', 42, 'mark.williams@example.com', '555-9012', 'male', '1979-02-28', 'doctor', 'doctorate', 'married', 120000),
+('Emily Davis', 29, 'emily.davis@example.com', '555-3456', 'female', '1992-07-17', 'programmer', 'bachelor', 'single', 60000),
+('James Lee', 31, 'james.lee@example.com', '555-7890', 'male', '1990-12-01', 'lawyer', 'master', 'single', 80000),
+('Sarah Brown', 38, 'sarah.brown@example.com', '555-2345', 'female', '1985-09-07', 'manager', 'bachelor', 'married', 90000),
+('David Wilson', 25, 'david.wilson@example.com', '555-6789', 'male', '1996-01-15', 'salesman', 'bachelor', 'single', 40000),
+('Jennifer Garcia', 33, 'jennifer.garcia@example.com', '555-0123', 'female', '1988-12-24', 'nurse', 'bachelor', 'married', 55000),
+('Michael Rodriguez', 46, 'michael.rodriguez@example.com', '555-4567', 'male', '1977-06-08', 'entrepreneur', 'bachelor', 'divorced', 150000),
+('Jessica Martinez', 22, 'jessica.martinez@example.com', '555-8901', 'female', '2001-03-05', 'student', 'high school', 'single', 0),
+('William Smith', 40, 'william.smith@example.com', '555-2345', 'male', '1981-11-18', 'software engineer', 'master', 'married', 100000),
+('Elizabeth Davis', 28, 'elizabeth.davis@example.com', '555-6789', 'female', '1993-08-12', 'chef', 'bachelor', 'single', 45000),
+('Christopher Johnson', 39, 'christopher.johnson@example.com', '555-0123', 'male', '1982-12-03', 'consultant', 'master', 'married', 110000),
+('Amanda Martinez', 24, 'amanda.martinez@example.com', '555-4567', 'female', '1999-05-07', 'artist', 'bachelor', 'single', 35000),
+('Matthew Garcia', 36, 'matthew.garcia@example.com', '555-8901', 'male', '1985-02-14', 'teacher', 'bachelor', 'married', 65000),
+('Laura Hernandez', 30, 'laura.hernandez@example.com', '555-2345', 'female', '1991-11-27', 'accountant', 'master', 'single', 70000),
+('Daniel Lopez', 43, 'daniel.lopez@example.com', '555-6789', 'male', '1978-04-22', 'manager', 'bachelor', 'married', 130000),
+('Ashley Gonzalez', 26, 'ashley.gonzalez@example.com', '555-0123', 'female', '1995-01-09', 'journalist', 'master', 'single', 55000),
+('Joseph Perez', 34, 'joseph.perez@example.com', '555-4567', 'male', '1987-08-31', 'engineer', 'bachelor', 'married', 90000),
+('Samantha Torres', 31, 'samantha.torres@example.com', '555-8901', 'female', '1990-04-18', 'project manager', 'bachelor', 'single', 75000);
+
+select * from person;
+-- 2
+SELECT  * from person order by age asc;
+
+-- 3
+select age, count(*)  from person group by age;
+
+-- 4
+select avg(age) from person ;
+
+-- 5
+select * from person where age> 30  and age<40;
+-- ya
+select * from person where age between 30 and 40;
+
+-- 6
+select * from person where name like "J%";
+
+-- 7
+update person set age=35 where email = "john.doe@example.com";
+
+-- 8
+delete from  person where age<25;
+
+-- 9
+select name,count(*) from person join post on person.id=person_id group by name;
+
+
+-- 10
+select person.name ,count(person_id) as countOfPosts from person join post on person.id=person_id group by person.name having countOfPosts>2;
+
+
+-- 11
+SELECT  name,income  from person order by income desc;
+
+
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES
+('Jessica Martinez', 22, 'jessica.martinez@example.com', '555-8901', 'female', '2001-03-05', 'student', 'high school', 'single', 0),
+('Amanda Martinez', 24, 'amanda.martinez@example.com', '555-4567', 'female', '1999-05-07', 'artist', 'bachelor', 'single', 35000);
+
+-- 12
+
+select name,income from person where income>(select avg(income) from person);
+
+
+
+-- 13
+select * from person where email like '%gmail.com';
+
+-- 14
+alter table person add nationality varchar(10);
+SELECT nationality, count(*) from person group by nationality;
+
+-- 15
+select * from person where name like "%smith%" and age>40;
+
+
+-- 16
+select * from person where length(name)>=5 and name like '%a';
+
+-- 17
+select name,age as "years" from person;
+
+-- 18
+select name,round(age) from person;
+
+-- 19
+
+update person set email = "oldest@gmail.com" where age = (select age from (select MAX(age) from person as max) as max2);
+
+-- 20
+delete p1 from person p1 inner join person p2 where p1.id > p2.id and p1.name = p2.name;
+
+
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status, income) VALUES
+('Ashley Williams', 25, 'Ashlet.williams@example.com', '523-8904', 'female', '1990-03-21', 'chef', 'bachelor', 'married', 79000),
+('Ashley HGHGHUSHD', 25, 'Ashlet.williams@example.com', '523-8904', 'female', '1990-03-21', 'chef', 'bachelor', 'married', 79000);
+
+ALTER TABLE person
+DROP COLUMN post;
+
+select person.name ,count(person_id) as countOfPosts from person join post on person.id=person_id group by person.name having countOfPosts>2;
+
+SELECT * FROM PERSON;

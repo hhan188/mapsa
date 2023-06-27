@@ -1,7 +1,6 @@
 package tamrinee5;
 
 public class UsingStudent2 {
-    package com.mapsahr.practice7;
 
     public class UsingStudent2 {
         public static void main(String[] args) {
