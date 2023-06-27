@@ -117,3 +117,189 @@ DROP COLUMN post;
 select person.name ,count(person_id) as countOfPosts from person join post on person.id=person_id group by person.name having countOfPosts>2;
 
 SELECT * FROM PERSON;
+
+use mapsa;
+
+INSERT INTO post (title, content, person_id)
+VALUES
+    ('Hello World!', 'This is my first post.', 1),
+    ('SQL Basics', 'Learn SQL with these simple tips.', 2),
+    ('Advanced SQL Techniques', 'Master SQL with these advanced tips.', 3),
+    ('My Favorite Books', 'Here are some of my favorite books.', 4),
+    ('Top Travel Destinations', 'Explore the world with these top destinations.', 5),
+    ('Healthy Eating Habits', 'Stay healthy with these eating habits.', 6),
+    ('My Favorite Movies', 'Here are some of my favorite movies.', 7),
+    ('Effective Time Management', 'Manage your time effectively with these tips.', 8),
+    ('Effective Communication Skills', 'Improve your communication skills with these tips.', 9),
+    ('My Favorite TV Shows', 'Here are some of my favorite TV shows.', 10),
+    ('Building Successful Teams', 'Create successful teams with these tips.', 11),
+    ('Leadership Strategies', 'Improve your leadership skills with these strategies.', 12),
+    ('My Favorite Music', 'Here are some of my favorite music artists.', 13),
+    ('Effective Project Management', 'Manage your projects effectively with these tips.', 14),
+    ('Effective Negotiation Skills', 'Improve your negotiation skills with these tips.', 15),
+    ('My Favorite Sports', 'Here are some of my favorite sports.', 16),
+    ('Effective Marketing Strategies', 'Improve your marketing skills with these strategies.', 17),
+    ('Effective Sales Techniques', 'Improve your sales techniques with these tips.', 18),
+    ('My Favorite Video Games', 'Here are some of my favorite video games.', 19),
+    ('Effective Customer Service', 'Improve your customer service skills with these tips.', 20),
+    ('Effective Problem Solving', 'Improve your problem-solving skills with these tips.', 21),
+    ('My Favorite Hobbies', 'Here are some of my favorite hobbies.', 22),
+    ('Effective Public Speaking', 'Improve your public speaking skills with these tips.', 23),
+    ('Effective Writing Skills', 'Improve your writing skills with these tips.', 24),
+    ('My Favorite Foods', 'Here are some of my favorite foods.', 25),
+    ('Effective Goal Setting', 'Set and achieve your goals with these tips.', 26);
+
+INSERT INTO post (title, content, person_id)
+VALUES
+    ('My Second Post', 'This is my second post.', 1),
+    ('Advanced SQL Concepts', 'Take your SQL skills to the next level.', 3),
+    ('Travel Tips', 'Maximize your travel experience with these tips.', 5),
+    ('Healthy Snack Ideas', 'Stay nourished with these healthy snack ideas.', 6),
+    ('My Second Movie Post', 'Here are some more of my favorite movies.', 7),
+    ('Productivity Hacks', 'Boost your productivity with these hacks.', 8),
+    ('Effective Team Communication', 'Improve team communication with these tips.', 11),
+    ('Leadership Best Practices', 'Implement best practices for leadership success.', 12),
+    ('My Second Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Effective Time Tracking', 'Track your time effectively with these tips.', 14),
+    ('Advanced Negotiation Techniques', 'Take your negotiation skills to the next level.', 15),
+    ('My Second Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Advanced Marketing Strategies', 'Take your marketing skills to the next level.', 17),
+    ('Advanced Sales Techniques', 'Take your sales techniques to the next level.', 18),
+    ('My Second Video Game Post', 'Here are some more of my favorite video games.', 19),
+    ('Advanced Customer Service', 'Take your customer service skills to the next level.', 20),
+    ('Problem-Solving Frameworks', 'Use frameworks to improve your problem-solving skills.', 21),
+    ('My Second Hobbies Post', 'Here are some more of my favorite hobbies.', 22),
+    ('Public Speaking Mastery', 'Master the art of public speaking with these tips.', 23),
+    ('Effective Writing Habits', 'Develop effective writing habits with these tips.', 24),
+    ('My Second Food Post', 'Here are some more of my favorite foods.', 25),
+    ('Effective Goal Planning', 'Plan your goals effectively with these tips.', 26),
+    ('My Third Post', 'This is my third post.', 1),
+    ('SQL Optimization Techniques', 'Optimize your SQL queries with these techniques.', 3),
+    ('Offbeat Travel Destinations', 'Explore unique and offbeat travel destinations.', 5),
+    ('Healthy Meal Prep Ideas', 'Stay healthy with these meal prep ideas.', 6),
+    ('My Third Movie Post','Here are some more of my favorite movies.', 7),
+    ('Time Management Tools', 'Use tools to improve your time management skills.', 8),
+    ('Effective Conflict Resolution', 'Resolve conflicts effectively with these tips.', 11),
+    ('Effective Delegation', 'Delegate tasks effectively with these tips.', 12),
+    ('My Third Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Project Management Best Practices', 'Implement best practices for project management success.', 14),
+    ('Advanced Sales Negotiation', 'Take your sales negotiation skills to the next level.', 15),
+    ('My Third Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Social Media Marketing Strategies', 'Maximize your social media marketing with these strategies.', 17),
+    ('Customer Relationship Management', 'Improve customer relationships with effective CRM strategies.', 20),
+    ('My Third Hobbies Post', 'Here are some more of my favorite hobbies.', 22),
+    ('Public Speaking Tips for Introverts', 'Master public speaking as an introvert with these tips.', 23),
+    ('Effective Business Writing', 'Improve your business writing skills with these tips.', 24),
+    ('My Third Food Post', 'Here are some more of my favorite foods.', 25),
+    ('Effective Goal Execution', 'Execute your goals effectively with these tips.', 26);
+
+    select * from post;
+
+-- 21
+select person.name,post.title from person join post on person_id=person.id;
+
+-- 22
+select person.name,count(*) from post join person on person.id=person_id group by person.name;
+
+
+-- 23
+select person.name from person where person.id not in (select person_id from post);
+
+
+-- 24
+
+select avg(person.age) from person join post on person.id = person_id having count(person_id) > 3;
+
+
+
+SELECT
+    AVG(person.age)
+FROM
+    person
+WHERE
+    person.id IN (SELECT
+            person.id
+        FROM
+            person
+                JOIN
+            post ON person_id = person.id
+        GROUP BY person.id
+        HAVING COUNT(post.id) >= 3);
+
+
+
+
+-- 25
+select person.name ,post.content from person join post on person.id = person_id  where post.content like "%SQL%";
+
+
+
+
+-- 26
+
+select * from person where id in (select person_id from post where length(content) = (select max(length(content)) from post));
+-- 27
+
+alter table post add likes int;
+select * from post;
+
+select post.title,post.likes from post;
+
+-- 28
+select person.name,post.title from person join post on person_id=person.id  order by person.age desc;
+
+-- 29
+select person.marital_status ,count(person.marital_status) from person join post on person.id=person_id group by person.marital_status;
+
+
+-- 30
+select post.title  from person join post on person.id=person_id where ( person.age>25 and person.age<40);
+
+-- 31
+
+select person.name from person order by person.education_level asc , person.income desc;
+
+-- 33
+-- select person.name from post join person on person.id=person_id where count(post.id)>count(post
+
+
+-- 34
+select * from post join person on person.id=person_id where person.email like "%gmail.com";
+
+-- 35
+alter table post add column date date;
+
+select * from post;
+
+select person.name,post.create_date from person join post on person.id=person_id order by post.create_date desc;
+
+alter table post
+drop date;
+
+-- 35
+select person.name,post.create_date from person join post on person.id=person_id order by post.create_date asc;
+
+-- 36
+
+select person.name,max(post.create_date) from person join post on person.id=person_id group by person.name;
+
+
+-- 37
+select * from post where likes>10;
+
+
+-- 38
+select person.name,sum(likes) from post join person on person.id=person_id group by person.name ;
+
+
+-- 39
+select post.id,post.content from post join person on person.id=person_id order by length(content) desc;
+-- 40
+select person.*, count(post.id) as posts_count from person inner join post on person.id = post.person_id group by person.id order by posts_count desc limit 1;
+
+
+select *from person;
+select * from post;
+
+
+
