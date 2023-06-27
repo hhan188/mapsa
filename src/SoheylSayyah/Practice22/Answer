@@ -1,0 +1,206 @@
+use mapsa;
+
+create table person (
+id int,
+name varchar(50),
+email varchar(200),
+phone_number varchar(11),
+age int,
+gender varchar(10),
+date_of_birth date,
+occupation varchar(50),
+education_level varchar(50),
+marital_status varchar(20),
+income int);
+-- 1
+INSERT INTO person (name, age, email, phone_number, gender, date_of_birth, occupation, education_level, marital_status, income)
+VALUES
+('John Smith', 35, 'john.smith@example.com', '555-1234', 'male', '1988-05-12', 'engineer', 'bachelor', 'married', 75000),
+('Alice Johnson', 27, 'alice.johnson@example.com', '555-5678', 'female', '1996-10-21', 'teacher', 'master', 'single', 50000),
+('Mark Williams', 42, 'mark.williams@example.com', '555-9012', 'male', '1979-02-28', 'doctor', 'doctorate', 'married', 120000),
+('Emily Davis', 29, 'emily.davis@example.com', '555-3456', 'female', '1992-07-17', 'programmer', 'bachelor', 'single', 60000),
+('James Lee', 31, 'james.lee@example.com', '555-7890', 'male', '1990-12-01', 'lawyer', 'master', 'single', 80000),
+('Sarah Brown', 38, 'sarah.brown@example.com', '555-2345', 'female', '1985-09-07', 'manager', 'bachelor', 'married', 90000),
+('David Wilson', 25, 'david.wilson@example.com', '555-6789', 'male', '1996-01-15', 'salesman', 'bachelor', 'single', 40000),
+('Jennifer Garcia', 33, 'jennifer.garcia@example.com', '555-0123', 'female', '1988-12-24', 'nurse', 'bachelor', 'married', 55000),
+('Michael Rodriguez', 46, 'michael.rodriguez@example.com', '555-4567', 'male', '1977-06-08', 'entrepreneur', 'bachelor', 'divorced', 150000),
+('Jessica Martinez', 22, 'jessica.martinez@example.com', '555-8901', 'female', '2001-03-05', 'student', 'high school', 'single', 0),
+('William Smith', 40, 'william.smith@example.com', '555-2345', 'male', '1981-11-18', 'software engineer', 'master', 'married', 100000),
+('Elizabeth Davis', 28, 'elizabeth.davis@example.com', '555-6789', 'female', '1993-08-12', 'chef', 'bachelor', 'single', 45000),
+('Christopher Johnson', 39, 'christopher.johnson@example.com', '555-0123', 'male', '1982-12-03', 'consultant', 'master', 'married', 110000),
+('Amanda Martinez', 24, 'amanda.martinez@example.com', '555-4567', 'female', '1999-05-07', 'artist', 'bachelor', 'single', 35000),
+('Matthew Garcia', 36, 'matthew.garcia@example.com', '555-8901', 'male', '1985-02-14', 'teacher', 'bachelor', 'married', 65000),
+('Laura Hernandez', 30, 'laura.hernandez@example.com', '555-2345', 'female', '1991-11-27', 'accountant', 'master', 'single', 70000),
+('Daniel Lopez', 43, 'daniel.lopez@example.com', '555-6789', 'male', '1978-04-22', 'manager', 'bachelor', 'married', 130000),
+('Ashley Gonzalez', 26, 'ashley.gonzalez@example.com', '555-0123', 'female', '1995-01-09', 'journalist', 'master', 'single', 55000),
+('Joseph Perez', 34, 'joseph.perez@example.com', '555-4567', 'male', '1987-08-31', 'engineer', 'bachelor', 'married', 90000),
+('Samantha Torres', 31, 'samantha.torres@example.com', '555-8901', 'female', '1990-04-18', 'project manager', 'bachelor', 'single', 75000);
+-- 2
+select * from person order by age asc;
+-- 3
+select age , count(*) from person group by age;
+-- 4
+select avg(age) from person;
+-- 5
+select * from person where age > 30 and age < 40;
+select * from person where age between 30 and 40;
+-- 6
+select * from person where name like 'j%';
+-- 7
+update person set age = 35 where email = "john.doe@example.com";
+show variables;
+-- 8
+delete from person where age < 25;
+-- 9
+create table post(
+id int,
+title varchar(50),
+content varchar(50),
+person_id int,foreign key (person_id) references person (id));
+
+INSERT INTO post (title, content, person_id) VALUES ('First Post', 'Hello World!', 1);
+INSERT INTO post (title, content, person_id) VALUES ('Second Post', 'SQL Basics', 2);
+INSERT INTO post (title, content, person_id) VALUES ('Third Post', 'Advanced SQL Techniques', 3);
+INSERT INTO post (title, content, person_id)
+VALUES
+    ('My Second Post', 'This is my second post.', 1),
+    ('Advanced SQL Concepts', 'Take your SQL skills to the next level.', 3),
+    ('Travel Tips', 'Maximize your travel experience with these tips.', 5),
+    ('Healthy Snack Ideas', 'Stay nourished with these healthy snack ideas.', 6),
+    ('My Second Movie Post', 'Here are some more of my favorite movies.', 7),
+    ('Productivity Hacks', 'Boost your productivity with these hacks.', 8),
+    ('Effective Team Communication', 'Improve team communication with these tips.', 11),
+    ('Leadership Best Practices', 'Implement best practices for leadership success.', 12),
+    ('My Second Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Effective Time Tracking', 'Track your time effectively with these tips.', 14),
+    ('Advanced Negotiation Techniques', 'Take your negotiation skills to the next level.', 15),
+    ('My Second Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Advanced Marketing Strategies', 'Take your marketing skills to the next level.', 17),
+    ('Advanced Sales Techniques', 'Take your sales techniques to the next level.', 18),
+    ('My Second Video Game Post', 'Here are some more of my favorite video games.', 19),
+    ('Advanced Customer Service', 'Take your customer service skills to the next level.', 20),
+    ('Problem-Solving Frameworks', 'Use frameworks to improve your problem-solving skills.', 1),
+    ('My Second Hobbies Post', 'Here are some more of my favorite hobbies.', 2),
+    ('Public Speaking Mastery', 'Master the art of public speaking with these tips.', 3),
+    ('Effective Writing Habits', 'Develop effective writing habits with these tips.', 4),
+    ('My Second Food Post', 'Here are some more of my favorite foods.', 5),
+    ('Effective Goal Planning', 'Plan your goals effectively with these tips.', 6),
+    ('My Third Post', 'This is my third post.', 1),
+    ('SQL Optimization Techniques', 'Optimize your SQL queries with these techniques.', 3),
+    ('Offbeat Travel Destinations', 'Explore unique and offbeat travel destinations.', 5),
+    ('Healthy Meal Prep Ideas', 'Stay healthy with these meal prep ideas.', 6),
+    ('My Third Movie Post','Here are some more of my favorite movies.', 7),
+    ('Time Management Tools', 'Use tools to improve your time management skills.', 8),
+    ('Effective Conflict Resolution', 'Resolve conflicts effectively with these tips.', 11),
+    ('Effective Delegation', 'Delegate tasks effectively with these tips.', 12),
+    ('My Third Music Post', 'Here are some more of my favorite music artists.', 13),
+    ('Project Management Best Practices', 'Implement best practices for project management success.', 14),
+    ('Advanced Sales Negotiation', 'Take your sales negotiation skills to the next level.', 15),
+    ('My Third Sports Post', 'Here are some more of my favorite sports.', 16),
+    ('Social Media Marketing Strategies', 'Maximize your social media marketing with these strategies.', 17),
+    ('Customer Relationship Management', 'Improve customer relationships with effective CRM strategies.', 20),
+    ('My Third Hobbies Post', 'Here are some more of my favorite hobbies.', 2),
+    ('Public Speaking Tips for Introverts', 'Master public speaking as an introvert with these tips.', 3),
+    ('Effective Business Writing', 'Improve your business writing skills with these tips.', 4),
+    ('My Third Food Post', 'Here are some more of my favorite foods.', 5),
+    ('Effective Goal Execution', 'Execute your goals effectively with these tips.', 19),('Hello World!', 'This is my first post.', 1),
+    ('SQL Basics', 'Learn SQL with these simple tips.', 2),
+    ('Advanced SQL Techniques', 'Master SQL with these advanced tips.', 3),
+    ('My Favorite Books', 'Here are some of my favorite books.', 4),
+    ('Top Travel Destinations', 'Explore the world with these top destinations.', 5),
+    ('Healthy Eating Habits', 'Stay healthy with these eating habits.', 6),
+    ('My Favorite Movies', 'Here are some of my favorite movies.', 7),
+    ('Effective Time Management', 'Manage your time effectively with these tips.', 8),
+    ('Effective Communication Skills', 'Improve your communication skills with these tips.', 9),
+    ('My Favorite TV Shows', 'Here are some of my favorite TV shows.', 10),
+    ('Building Successful Teams', 'Create successful teams with these tips.', 11),
+    ('Leadership Strategies', 'Improve your leadership skills with these strategies.', 12),
+    ('My Favorite Music', 'Here are some of my favorite music artists.', 13),
+    ('Effective Project Management', 'Manage your projects effectively with these tips.', 14),
+    ('Effective Negotiation Skills', 'Improve your negotiation skills with these tips.', 15),
+    ('My Favorite Sports', 'Here are some of my favorite sports.', 16),
+    ('Effective Marketing Strategies', 'Improve your marketing skills with these strategies.', 17),
+    ('Effective Sales Techniques', 'Improve your sales techniques with these tips.', 18),
+    ('My Favorite Video Games', 'Here are some of my favorite video games.', 19),
+    ('Effective Customer Service', 'Improve your customer service skills with these tips.', 20),
+    ('Effective Problem Solving', 'Improve your problem-solving skills with these tips.', 1),
+    ('My Favorite Hobbies', 'Here are some of my favorite hobbies.', 2),
+    ('Effective Public Speaking', 'Improve your public speaking skills with these tips.', 3),
+    ('Effective Writing Skills', 'Improve your writing skills with these tips.', 4),
+    ('My Favorite Foods', 'Here are some of my favorite foods.', 5),
+    ('Effective Goal Setting', 'Set and achieve your goals with these tips.', 2);
+
+select person.name , count(*) from person join post on person_id = person.id group by person.name;
+-- 10
+select person.name , count(*) from person join post on person_id = person.id group by person.name having count(*) > 2;
+-- 11
+select name , income from person order by income desc;
+-- 12
+select avg(income) from person;
+select * from person where income > 74750;
+select * from person where income > (select avg(income) from persons);
+-- 13
+select * from person where email like '%gmail.com';
+-- 14
+alter table person add nationality varchar(50);
+select * from person;
+select nationality , count(*) from person group by nationality;
+-- 15
+select * from person where name like '%smith%' and age > 40;
+-- 16
+select * from person where length(name) >= 5 and name like '%a';
+-- 17
+select name , age as "Years" from person;
+-- 18
+select name , round(age) from person;
+-- 19
+select max(age) from person;
+update person set email = "oldest@example.com" where age = 46;
+-- 20
+delete p1 from person p1 join person p2 where p1.id != p2.id and p1.name = p2.name;
+-- 21
+select person.name , post.title , post.content from person join post on person_id = person.id;
+-- 22
+select person.name , count(*) from person join post on person_id = person.id group by person.name;
+-- 23
+select person.name , count(*) from person join post on person_id = person.id group by person.name having count(person_id) = 0;
+-- 24
+select avg(person.age) from person join post on person_id = person.id having count(person_id) >= 3;
+-- 25
+select person.name , post.content from person join post on person_id = person.id where post.content like "%SQL%";
+-- 26
+select max(length(post.content)) from post;
+select person.name , max(length(post.content)) from person join post on person_id = person.id group by person.name having max(length(post.content)) = 61;
+-- 27
+select post.title , post.content , post.likes from post;
+-- 28
+select post.title , post.content , person.name , person.age from post join person on person_id = person.id order by person.age desc;
+-- 29
+select person.marital_status , count(*) from person join post on person_id = person.id group by person.marital_status having count(post.content) > 0;
+-- 30
+select * from person join post on person_id = person.id having person.age between 25 and 40;
+-- 31
+select * from person join post on person_id = person.id order by person.education_level asc;
+select * from person join post on person_id = person.id order by person.income desc;
+-- 32
+
+-- 33
+select avg() from person join post on person_id = person.id;
+select person.name , count(person_id) from person join post on person_id = person.id group by person.name;
+-- 34
+select * from person join post on person_id = person.id where person.email like "%gmail.com";
+-- 35
+alter table post add column date date;
+select person.name , post.date from person join post on person_id = person.id order by post.date desc;
+-- 36
+select person.name , post.date from person join post on person_id = person.id order by post.date desc;
+select person.name , max(post.date) from person join post on person_id = person.id group by person.name order by max(post.date) desc;
+-- 37
+select * from post where post.likes > 10;
+-- 38
+select person.name , sum(likes) from person join post on person_id = person.id group by person.name;
+-- 39
+select person.name , post.content from person join post on person_id = person.id order by length(post.content) desc;
+select * from post;
+-- 40
+select person.name , count(*) from post join person on person_id = person.id group by person.name order by count(*) desc limit 1;

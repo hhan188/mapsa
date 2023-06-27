@@ -1,0 +1,475 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9dd33100-6d93-4603-bdcc-4b568dd1cb5a\" name=\"Changes\" comment=\"Tamrin 13 Added\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Mol7VNLnBNTKOR7IQehygkm8Mu\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"last_opened_file_path\": \"W:/Java/Mapsa/mapsa/src/tamrin13\",\n    \"nodejs_package_manager_path\": \"npm\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"W:\\Java\\Mapsa\\mapsa\\src\\tamrin13\" />\n      <recent name=\"W:\\Java\\Mapsa\\mapsa\\src\\tamrin12\\\" />\n      <recent name=\"W:\\Java\\Mapsa\\mapsa\\src\\tamrin12\" />\n      <recent name=\"W:\\Java\\Mapsa\\mapsa\\src\\tamrin11\" />\n      <recent name=\"W:\\Java\\Mapsa\\mapsa\\src\\tamrin10\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"tamrin11.p13\" />\n      <recent name=\"tamrin11.p12\" />\n      <recent name=\"tamrin11.p11\" />\n      <recent name=\"tamrin11.p9\" />\n      <recent name=\"tamrin11.p7\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.AvgCsvFile\">\n    <configuration name=\"AvgCsvFile\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"tamrin12.p1.AvgCsvFile\" />\n      <module name=\"mapsa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tamrin12.p1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"tamrin8.p1.Main\" />\n      <module name=\"mapsa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tamrin8.p1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"p3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"tamrin2.p3\" />\n      <module name=\"mapsa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tamrin2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"tamrin7.p17.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"tamrin7.p17.Main\" />\n      <module name=\"mapsa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tamrin7.p17.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"tamrin8.p2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"tamrin8.p2.Main\" />\n      <module name=\"mapsa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"tamrin8.p2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.AvgCsvFile\" />\n        <item itemvalue=\"Application.tamrin7.p17.Main\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.tamrin8.p2.Main\" />\n        <item itemvalue=\"Application.p3\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9dd33100-6d93-4603-bdcc-4b568dd1cb5a\" name=\"Changes\" comment=\"\" />\n      <created>1678441650971</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1678441650971</updated>\n      <workItem from=\"1681567744219\" duration=\"9000\" />\n      <workItem from=\"1681567760302\" duration=\"6517000\" />\n      <workItem from=\"1681576298349\" duration=\"356000\" />\n      <workItem from=\"1681708932771\" duration=\"607000\" />\n      <workItem from=\"1681811084045\" duration=\"1006000\" />\n      <workItem from=\"1681812858216\" duration=\"601000\" />\n      <workItem from=\"1681991558342\" duration=\"2829000\" />\n      <workItem from=\"1682277371968\" duration=\"612000\" />\n      <workItem from=\"1682521692022\" duration=\"397000\" />\n      <workItem from=\"1682783987016\" duration=\"947000\" />\n      <workItem from=\"1683275623222\" duration=\"8000\" />\n      <workItem from=\"1683275801521\" duration=\"6000\" />\n      <workItem from=\"1683275816928\" duration=\"457000\" />\n      <workItem from=\"1683276288052\" duration=\"1720000\" />\n      <workItem from=\"1683445367948\" duration=\"798000\" />\n      <workItem from=\"1683914921278\" duration=\"14000\" />\n      <workItem from=\"1684076211556\" duration=\"662000\" />\n      <workItem from=\"1684225573053\" duration=\"905000\" />\n      <workItem from=\"1684651572396\" duration=\"52000\" />\n      <workItem from=\"1684745440967\" duration=\"139000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Delete Unnecessary Files\">\n      <created>1681576606499</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681576606499</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Practice 5 Done\">\n      <created>1681811355307</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681811355307</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Practice 7 Done\">\n      <created>1681991631966</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681991631966</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Practice 2,3,4,6 that done before, is Added\">\n      <created>1681994235743</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681994235743</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Practice 8 p1 &amp; p2 done\">\n      <created>1682277764570</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682277764570</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Update Practice 8 p1&#10;Remove Bug in Store.java\">\n      <created>1682521987760</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682521987760</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Tamrin 9 Added\">\n      <created>1683278251908</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683278251908</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Tamrin 10 Added\">\n      <created>1683445597165</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683445597165</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Tamrin 11 Added\">\n      <created>1684076574700</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1684076574700</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Tamrin 12 Added\">\n      <created>1684227065603</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1684227065603</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Tamrin 13 Added\">\n      <created>1684745560203</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1684745560203</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"origin/EhsanBabaie\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"RECENT_FILTERS\">\n      <map>\n        <entry key=\"Branch\">\n          <value>\n            <list>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/Hanieh\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/EhsanBabaie\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/sajjadEmami\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/master\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/RaminPirnia\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/AliJamali\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"EhsanBabaie\" />\n                </option>\n              </RecentGroup>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Delete Unnecessary Files\" />\n    <MESSAGE value=\"Practice 5 Done\" />\n    <MESSAGE value=\"Practice 7 Done\" />\n    <MESSAGE value=\"Practice 2,3,4,6 that done before, is Added\" />\n    <MESSAGE value=\"Practice 8 p1 &amp; p2 done\" />\n    <MESSAGE value=\"Update Practice 8 p1&#10;Remove Bug in Store.java\" />\n    <MESSAGE value=\"Tamrin 9 Added\" />\n    <MESSAGE value=\"Tamrin 10 Added\" />\n    <MESSAGE value=\"Tamrin 11 Added\" />\n    <MESSAGE value=\"Tamrin 12 Added\" />\n    <MESSAGE value=\"Tamrin 13 Added\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Tamrin 13 Added\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3645201007f207d941d71fa4e34e28e4c4a361b5)
++++ b/.idea/workspace.xml	(date 1687702678627)
+@@ -1,61 +1,84 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 13 Added" />
++    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 17" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="CodeInsightWorkspaceSettings">
++    <option name="optimizeImportsOnTheFly" value="true" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Interface" />
++        <option value="Class" />
++        <option value="Enum" />
++      </list>
++    </option>
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="Hanieh" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/Tamrin5.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/lang/NumberFormatException.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/nio/file/Files.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/nio/file/Path.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/InputMismatchException.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/List.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/Optional.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/stream/DoubleStream.java" root0="SKIP_INSPECTION" />
++    <setting file="jar:///usr/java/jdk1.8.0_202/src.zip!/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2Mol7VNLnBNTKOR7IQehygkm8Mu" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="1" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin13",
+-    "nodejs_package_manager_path": "npm"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/soheyl/IdeaProjects/mapsa/src/SoheylSayyah&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.43314192&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin13" />
+-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin12\" />
+-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin12" />
+-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin11" />
+-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin10" />
+-    </key>
+-    <key name="CopyClassDialog.RECENTS_KEY">
+-      <recent name="tamrin11.p13" />
+-      <recent name="tamrin11.p12" />
+-      <recent name="tamrin11.p11" />
+-      <recent name="tamrin11.p9" />
+-      <recent name="tamrin11.p7" />
++      <recent name="$PROJECT_DIR$/src/SoheylSayyah" />
++      <recent name="$PROJECT_DIR$/src/Tamrin17Streams" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.AvgCsvFile">
+-    <configuration name="AvgCsvFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tamrin12.p1.AvgCsvFile" />
++  <component name="RunManager">
++    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Tamrin17Streams.Product" />
+       <module name="mapsa" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tamrin12.p1.*" />
++          <option name="PATTERN" value="Tamrin17Streams.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -63,12 +86,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tamrin8.p1.Main" />
++    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Tamrin11.Student" />
+       <module name="mapsa" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tamrin8.p1.*" />
++          <option name="PATTERN" value="Tamrin11.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -76,12 +99,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tamrin2.p3" />
++    <configuration name="Tamrin9.inter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Tamrin9.inter.Main" />
+       <module name="mapsa" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tamrin2.*" />
++          <option name="PATTERN" value="Tamrin9.inter.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -89,12 +112,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="tamrin7.p17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tamrin7.p17.Main" />
++    <configuration name="Warehouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Tamrin17Streams.Warehouse" />
+       <module name="mapsa" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tamrin7.p17.*" />
++          <option name="PATTERN" value="Tamrin17Streams.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -102,12 +125,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="tamrin8.p2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="tamrin8.p2.Main" />
++    <configuration name="p12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Tamrin12.p12" />
+       <module name="mapsa" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="tamrin8.p2.*" />
++          <option name="PATTERN" value="Tamrin12.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -117,15 +140,18 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.AvgCsvFile" />
+-        <item itemvalue="Application.tamrin7.p17.Main" />
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.tamrin8.p2.Main" />
+-        <item itemvalue="Application.p3" />
++        <item itemvalue="Application.Product" />
++        <item itemvalue="Application.Warehouse" />
++        <item itemvalue="Application.Student" />
++        <item itemvalue="Application.p12" />
++        <item itemvalue="Application.Tamrin9.inter.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="SvnConfiguration">
++    <configuration>$USER_HOME$/.subversion</configuration>
++  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="" />
+@@ -133,190 +159,81 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1678441650971</updated>
+-      <workItem from="1681567744219" duration="9000" />
+-      <workItem from="1681567760302" duration="6517000" />
+-      <workItem from="1681576298349" duration="356000" />
+-      <workItem from="1681708932771" duration="607000" />
+-      <workItem from="1681811084045" duration="1006000" />
+-      <workItem from="1681812858216" duration="601000" />
+-      <workItem from="1681991558342" duration="2829000" />
+-      <workItem from="1682277371968" duration="612000" />
+-      <workItem from="1682521692022" duration="397000" />
+-      <workItem from="1682783987016" duration="947000" />
+-      <workItem from="1683275623222" duration="8000" />
+-      <workItem from="1683275801521" duration="6000" />
+-      <workItem from="1683275816928" duration="457000" />
+-      <workItem from="1683276288052" duration="1720000" />
+-      <workItem from="1683445367948" duration="798000" />
+-      <workItem from="1683914921278" duration="14000" />
+-      <workItem from="1684076211556" duration="662000" />
+-      <workItem from="1684225573053" duration="905000" />
+-      <workItem from="1684651572396" duration="52000" />
+-      <workItem from="1684745440967" duration="139000" />
+     </task>
+-    <task id="LOCAL-00001" summary="Delete Unnecessary Files">
+-      <created>1681576606499</created>
++    <task id="LOCAL-00001" summary="init hanieh branch for test">
++      <created>1680931389789</created>
+       <option name="number" value="00001" />
+       <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1681576606499</updated>
++      <updated>1680931389789</updated>
+     </task>
+-    <task id="LOCAL-00002" summary="Practice 5 Done">
+-      <created>1681811355307</created>
++    <task id="LOCAL-00002" summary="Practice 17">
++      <created>1685876989245</created>
+       <option name="number" value="00002" />
+       <option name="presentableId" value="LOCAL-00002" />
+       <option name="project" value="LOCAL" />
+-      <updated>1681811355307</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Practice 7 Done">
+-      <created>1681991631966</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681991631966</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Practice 2,3,4,6 that done before, is Added">
+-      <created>1681994235743</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681994235743</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="Practice 8 p1 &amp; p2 done">
+-      <created>1682277764570</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682277764570</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="Update Practice 8 p1&#10;Remove Bug in Store.java">
+-      <created>1682521987760</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682521987760</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="Tamrin 9 Added">
+-      <created>1683278251908</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1683278251908</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="Tamrin 10 Added">
+-      <created>1683445597165</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1683445597165</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="Tamrin 11 Added">
+-      <created>1684076574700</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1684076574700</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="Tamrin 12 Added">
+-      <created>1684227065603</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1684227065603</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="Tamrin 13 Added">
+-      <created>1684745560203</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1684745560203</updated>
++      <updated>1685876989245</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <option name="localTasksCounter" value="3" />
+     <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="origin/EhsanBabaie" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="RECENT_FILTERS">
+-      <map>
+-        <entry key="Branch">
+-          <value>
+-            <list>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/Hanieh" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/EhsanBabaie" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/sajjadEmami" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/master" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/RaminPirnia" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="origin/AliJamali" />
+-                </option>
+-              </RecentGroup>
+-              <RecentGroup>
+-                <option name="FILTER_VALUES">
+-                  <option value="EhsanBabaie" />
+-                </option>
+-              </RecentGroup>
+-            </list>
++            <State />
+           </value>
+         </entry>
+       </map>
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Delete Unnecessary Files" />
+-    <MESSAGE value="Practice 5 Done" />
+-    <MESSAGE value="Practice 7 Done" />
+-    <MESSAGE value="Practice 2,3,4,6 that done before, is Added" />
+-    <MESSAGE value="Practice 8 p1 &amp; p2 done" />
+-    <MESSAGE value="Update Practice 8 p1&#10;Remove Bug in Store.java" />
+-    <MESSAGE value="Tamrin 9 Added" />
+-    <MESSAGE value="Tamrin 10 Added" />
+-    <MESSAGE value="Tamrin 11 Added" />
+-    <MESSAGE value="Tamrin 12 Added" />
+-    <MESSAGE value="Tamrin 13 Added" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 13 Added" />
++    <MESSAGE value="init hanieh branch for test" />
++    <MESSAGE value="Practice 17" />
++    <option name="LAST_COMMIT_MESSAGE" value="Practice 17" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Functions.java</url>
++          <line>21</line>
++          <option name="timeStamp" value="6" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Main.java</url>
++          <line>11</line>
++          <option name="timeStamp" value="9" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Tamrin2.java</url>
++          <line>51</line>
++          <option name="timeStamp" value="13" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Tamrin2.java</url>
++          <line>17</line>
++          <option name="timeStamp" value="14" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Tamrin5.java</url>
++          <line>256</line>
++          <option name="timeStamp" value="15" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Tamrin17Streams/Product.java</url>
++          <line>68</line>
++          <properties>
++            <option name="lambda-ordinal" value="-1" />
++          </properties>
++          <option name="timeStamp" value="25" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_19\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 3645201007f207d941d71fa4e34e28e4c4a361b5)
++++ b/.idea/misc.xml	(date 1687702678633)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
