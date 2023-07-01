@@ -25,7 +25,7 @@ public class Main {
         );
         CompletableFuture<String> fullColor = color
                 .thenCombine(colorTwo,(a,b)->"Full color is "+a+b);
-        System.out.println("Full color is : "+fullColor.join());
+        System.out.println("Full color is : "+ fullColor.join());
     }
 
 }
