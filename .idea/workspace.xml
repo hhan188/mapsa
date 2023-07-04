@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 23">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_25_2023_AD,_17_47_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_25_2023_AD,_17_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 24" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +56,7 @@
       <recent name="tamrin11.p7" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AvgCsvFile">
     <configuration name="AvgCsvFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tamrin12.p1.AvgCsvFile" />
       <module name="mapsa" />
@@ -266,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687961164233</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Practice 24">
+      <option name="closed" value="true" />
+      <created>1688396644599</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688396644599</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Practice 24">
+      <option name="closed" value="true" />
+      <created>1688396652476</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688396652476</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +399,7 @@
     <MESSAGE value="Tamrin 13 Added" />
     <MESSAGE value="SQL Practice" />
     <MESSAGE value="Practice 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 23" />
+    <MESSAGE value="Practice 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 24" />
   </component>
 </project>
