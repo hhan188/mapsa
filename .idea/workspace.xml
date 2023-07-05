@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice 21 mysql added" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="practice 22 added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/eight/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/fifth/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/first/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/first/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/first/MyThreadExtend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/fourth/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/seventh/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/sixth/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice20/thirdteen/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice21/sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Album/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Album/AlbumService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Album/configHibernateXml3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Album/crudAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Artist/Artist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Artist/ArtistService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Artist/configHibernateXml2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Artist/crudTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/SessionFactoryProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Song/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Song/SongService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Song/configHibernateXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice22/Song/crudTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -362,7 +387,42 @@
       <option name="project" value="LOCAL" />
       <updated>1687870917095</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="practice 21 mysql added">
+      <created>1687871004168</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871004168</updated>
+    </task>
+    <task id="LOCAL-00045" summary="practice 21 mysql added">
+      <created>1687871071466</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871071466</updated>
+    </task>
+    <task id="LOCAL-00046" summary="practice 21 mysql changes added">
+      <created>1687871339784</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871339784</updated>
+    </task>
+    <task id="LOCAL-00047" summary="practice 20 added">
+      <created>1687963729832</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1687963729832</updated>
+    </task>
+    <task id="LOCAL-00048" summary="practice 22 added.">
+      <created>1688116393433</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1688116393433</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,6 +453,9 @@
     <MESSAGE value="practice 17 fixed and added" />
     <MESSAGE value="practice 14 Bank" />
     <MESSAGE value="practice 21 mysql added" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 21 mysql added" />
+    <MESSAGE value="practice 21 mysql changes added" />
+    <MESSAGE value="practice 20 added" />
+    <MESSAGE value="practice 22 added." />
+    <option name="LAST_COMMIT_MESSAGE" value="practice 22 added." />
   </component>
 </project>
