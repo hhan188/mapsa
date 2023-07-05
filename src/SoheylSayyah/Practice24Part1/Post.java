@@ -1,4 +1,4 @@
-package SoheylSayyah.Practice24;
+package SoheylSayyah.Practice24Part1;
 
 
 import javax.persistence.*;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 24" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 24 Part 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688396652476</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Practice 24 Part 2">
+      <option name="closed" value="true" />
+      <created>1688490734239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688490734239</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +408,7 @@
     <MESSAGE value="SQL Practice" />
     <MESSAGE value="Practice 23" />
     <MESSAGE value="Practice 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 24" />
+    <MESSAGE value="Practice 24 Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 24 Part 2" />
   </component>
 </project>

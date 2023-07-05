@@ -1,7 +1,10 @@
-package SoheylSayyah.Practice24;
+package SoheylSayyah.Practice24Part3;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+
+import java.util.List;
 
 public class AuthorService
 {
@@ -36,5 +39,23 @@ public class AuthorService
         Author author = session.get(Author.class , id);
         session.close();
         System.out.println(author);
+    }
+    public Author getByName(String name){
+        Session session = sessionFactory.openSession();
+        Query query = session.createQuery("select a from Author a where a.name =: name");
+        query.setParameter("name" , name);
+        List<Author> authors = query.list();
+        session.close();
+        if (authors.size() > 0){
+            return authors.get(0);
+        }
+        return null;
+    }
+    public List<Author> getAll(){
+        Session session = sessionFactory.openSession();
+        Query query = session.createQuery("select a from Author a");
+        List<Author> authors = query.list();
+        session.close();
+        return authors;
     }
 }
