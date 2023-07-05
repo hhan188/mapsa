@@ -1,7 +1,7 @@
-package org.mapsa.entities.practice22.Album;
+package practice23.Album;
 
 import net.bytebuddy.dynamic.loading.InjectionClassLoader;
-import org.mapsa.entities.practice22.Artist.Artist;
+import practice23.Artist.Artist;
 import org.mapsa.entities.practice22.Song.Song;
 
 import javax.persistence.*;

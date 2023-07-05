@@ -1,4 +1,4 @@
-package org.mapsa.entities.practice22;
+package practice23;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

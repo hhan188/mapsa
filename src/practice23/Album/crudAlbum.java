@@ -1,6 +1,6 @@
-package org.mapsa.entities.practice22.Album;
+package practice23.Album;
 
-import org.mapsa.entities.practice22.SessionFactoryProvider;
+import practice23.SessionFactoryProvider;
 
 import java.util.Date;
 

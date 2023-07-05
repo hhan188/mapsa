@@ -1,7 +1,7 @@
-package org.mapsa.entities.practice22.Artist;
+package practice23.Artist;
 
 import org.mapsa.entities.practice22.Album.Album;
-import org.mapsa.entities.practice23.Artist_detail;
+import practice23.Artist_detail;
 
 import javax.persistence.*;
 import java.util.ArrayList;

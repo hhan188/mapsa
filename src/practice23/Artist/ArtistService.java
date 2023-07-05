@@ -1,4 +1,4 @@
-package org.mapsa.entities.practice22.Artist;
+package practice23.Artist;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

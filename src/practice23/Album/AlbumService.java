@@ -1,4 +1,4 @@
-package org.mapsa.entities.practice22.Album;
+package practice23.Album;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

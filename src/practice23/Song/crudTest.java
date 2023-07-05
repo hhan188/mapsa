@@ -1,4 +1,4 @@
-package org.mapsa.entities.practice22.Song;
+package practice23.Song;
 
 
 public class crudTest {

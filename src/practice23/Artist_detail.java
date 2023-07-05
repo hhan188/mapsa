@@ -1,4 +1,4 @@
-package org.mapsa.entities.practice23;
+package practice23;
 
 
 import org.mapsa.entities.practice22.Artist.Artist;

@@ -1,7 +1,7 @@
-package org.mapsa.entities.practice22.Artist;
+package practice23.Artist;
 
 
-import org.mapsa.entities.practice22.SessionFactoryProvider;
+import practice23.SessionFactoryProvider;
 
 public class crudTest2 {
     public static void main(String[] args) {

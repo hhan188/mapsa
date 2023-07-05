@@ -1,10 +1,10 @@
-package org.mapsa.entities.practice23;
+package practice23;
 
 import org.mapsa.entities.practice22.Album.Album;
 import org.mapsa.entities.practice22.Album.AlbumService;
 import org.mapsa.entities.practice22.Artist.Artist;
 import org.mapsa.entities.practice22.Artist.ArtistService;
-import org.mapsa.entities.practice22.SessionFactoryProvider;
+import practice23.SessionFactoryProvider;
 import org.mapsa.entities.practice22.Song.Song;
 
 import javax.print.DocFlavor;
