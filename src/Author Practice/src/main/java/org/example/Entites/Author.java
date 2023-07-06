@@ -1,8 +1,8 @@
 package org.example.Entites;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -15,7 +15,7 @@ public class Author {
     @Column
     private String name;
     @Column
-    private Date birthDay;
+    private LocalDate birthDay;
 
     @OneToOne(mappedBy = "author" , cascade = CascadeType.ALL)
     private AuthorDetails authorDetails;
@@ -25,7 +25,7 @@ public class Author {
     public Author() {
     }
 
-    public Author(String name, Date birthDay) {
+    public Author(String name, LocalDate birthDay) {
         this.name = name;
         this.birthDay = birthDay;
     }
@@ -62,11 +62,11 @@ public class Author {
         this.name = name;
     }
 
-    public Date getBirthDay() {
+    public LocalDate getBirthDay() {
         return birthDay;
     }
 
-    public void setBirthDay(Date birthDay) {
+    public void setBirthDay(LocalDate birthDay) {
         this.birthDay = birthDay;
     }
 }

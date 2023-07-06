@@ -4,6 +4,9 @@ import org.example.Entites.Author;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import javax.persistence.Query;
+import java.util.List;
+
 public class AuthorService {
     SessionFactory sessionFactory;
 
@@ -36,5 +39,23 @@ public class AuthorService {
         Author author = session.get(Author.class, AuthorId);
         session.close();
         return author;
+    }
+    public Author getAuthorByName(String AuthorName){
+        Session session = sessionFactory.openSession();
+        Query query = session.createQuery("select a from Author where a.name =: name ");
+        query.setParameter("name",AuthorName);
+        List<Author> authors = query.getResultList();
+        session.close();
+        if (authors.size()>0){
+            return (Author) authors;
+        }
+        return null;
+    }
+    public List<Author> getAllAuthor(Author author){
+        Session session = sessionFactory.openSession();
+        Query query= session.createQuery("select a from Author a");
+        List<Author> authors = query.getResultList();
+        session.close();
+        return authors;
     }
 }
