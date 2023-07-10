@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 13 Added" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 23 (Auther) Added">
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/config/ConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/config/SessionFactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/embeddeds/CreateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/embeddeds/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/AuthorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/ContactPointType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/DegreeTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/PostStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/EntityBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/AuthorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/CreateSampleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/PostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +54,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin13",
-    "nodejs_package_manager_path": "npm"
+    "git-widget-placeholder": "EhsanBabaie",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin24/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.20301624",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin23\src" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin23" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin13" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin12\" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin12" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin11" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin10" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin23\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tamrin11.p13" />
@@ -117,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AvgCsvFile" />
-        <item itemvalue="Application.tamrin7.p17.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.tamrin8.p2.Main" />
+        <item itemvalue="Application.tamrin7.p17.Main" />
         <item itemvalue="Application.p3" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AvgCsvFile" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +204,13 @@
       <workItem from="1684225573053" duration="905000" />
       <workItem from="1684651572396" duration="52000" />
       <workItem from="1684745440967" duration="139000" />
+      <workItem from="1688571253200" duration="37000" />
+      <workItem from="1688832726512" duration="180000" />
+      <workItem from="1688832915608" duration="278000" />
+      <workItem from="1688966996486" duration="1687000" />
+      <workItem from="1688978031482" duration="2887000" />
+      <workItem from="1688980986336" duration="651000" />
+      <workItem from="1689005269590" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -231,34 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684745560203</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tamrin 23 (Auther) Added">
+      <option name="closed" value="true" />
+      <created>1688981622790</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688981622790</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/EhsanBabaie" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -266,12 +311,12 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="origin/Hanieh" />
+                  <option value="origin/EhsanBabaie" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="origin/EhsanBabaie" />
+                  <option value="origin/Hanieh" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -304,6 +349,27 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/EhsanBabaie" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete Unnecessary Files" />
@@ -317,6 +383,7 @@
     <MESSAGE value="Tamrin 11 Added" />
     <MESSAGE value="Tamrin 12 Added" />
     <MESSAGE value="Tamrin 13 Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 13 Added" />
+    <MESSAGE value="Tamrin 23 (Auther) Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 23 (Auther) Added" />
   </component>
 </project>
