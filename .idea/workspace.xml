@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 23 (Auther) Added">
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/config/ConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/config/SessionFactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/embeddeds/CreateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/embeddeds/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/AuthorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/entities/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/ContactPointType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/DegreeTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/enums/PostStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/EntityBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/java/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/AuthorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/CreateSampleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tamrin24/src/test/java/PostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Tamrin 24 (New Auther with element collection, enum and embedded) Added">
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/config/ConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/config/SessionFactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/entities/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/entities/ArtistDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/entities/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/java/service/EntityBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tamrin22/src/test/java/CreateSampleData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +47,11 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "EhsanBabaie",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin24/src/test/java",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "W:/Java/Mapsa/mapsa/src/tamrin22/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,24 +66,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin23\src" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin23" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin13" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin12\" />
-      <recent name="W:\Java\Mapsa\mapsa\src\tamrin12" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin22\src\main\java" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin22\src\main\resources" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin24\src\test\java" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin24\src\main\resources" />
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin24\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\Java\Mapsa\mapsa\src\tamrin24" />
+      <recent name="W:\Java\Mapsa\mapsa\src" />
       <recent name="W:\Java\Mapsa\mapsa\src\tamrin23\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="tamrin11.p13" />
       <recent name="tamrin11.p12" />
       <recent name="tamrin11.p11" />
       <recent name="tamrin11.p9" />
-      <recent name="tamrin11.p7" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AvgCsvFile">
@@ -210,7 +198,8 @@
       <workItem from="1688966996486" duration="1687000" />
       <workItem from="1688978031482" duration="2887000" />
       <workItem from="1688980986336" duration="651000" />
-      <workItem from="1689005269590" duration="310000" />
+      <workItem from="1689005269590" duration="1078000" />
+      <workItem from="1689011183245" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unnecessary Files">
       <created>1681576606499</created>
@@ -297,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688981622790</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tamrin 24 (New Auther with element collection, enum and embedded) Added">
+      <option name="closed" value="true" />
+      <created>1689005706677</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689005706677</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +381,7 @@
     <MESSAGE value="Tamrin 12 Added" />
     <MESSAGE value="Tamrin 13 Added" />
     <MESSAGE value="Tamrin 23 (Auther) Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 23 (Auther) Added" />
+    <MESSAGE value="Tamrin 24 (New Auther with element collection, enum and embedded) Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tamrin 24 (New Auther with element collection, enum and embedded) Added" />
   </component>
 </project>
