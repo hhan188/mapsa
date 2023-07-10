@@ -1,0 +1,29 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/practice23?useSSL=false</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">Aa12345678!</property>
+
+        <!-- Select our SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Echo the SQL to stdout -->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <!-- Auto config database schema on startup -->
+        <property name="hbm2ddl.auto">create</property>
+
+        <!--entities declaration-->
+        <mapping class="entities.Author"></mapping>
+        <mapping class="entities.AuthorDetail"></mapping>
+        <mapping class="entities.Post"></mapping>
+        <mapping class="entities.Category"></mapping>
+
+    </session-factory>
+</hibernate-configuration>
