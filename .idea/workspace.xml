@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 24 Part 2" />
+    <list default="true" id="9dd33100-6d93-4603-bdcc-4b568dd1cb5a" name="Changes" comment="Practice 24 Part 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688490734239</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Practice 24 Part 3">
+      <option name="closed" value="true" />
+      <created>1688571234472</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571234472</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +384,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="SoheylSayyah" />
                       </list>
                     </value>
                   </entry>
@@ -409,6 +419,7 @@
     <MESSAGE value="Practice 23" />
     <MESSAGE value="Practice 24" />
     <MESSAGE value="Practice 24 Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice 24 Part 2" />
+    <MESSAGE value="Practice 24 Part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 24 Part 3" />
   </component>
 </project>
